@@ -1,0 +1,12 @@
+
+fieldset{border:none; float:left; width:80px;}
+fieldset label,
+fieldset input[type="radio"]{float:left;}
+fieldset label{line-height:18px; font-weight:normal;}
+
+#mainInformes {margin-left:0px !important;}
+#mainBoxLI{ overflow:hidden !important; height:auto !important;}
+/*
+table tr.titulo td{ text-align:center !important;}
+*/
+

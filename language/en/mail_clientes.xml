@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<recupero_password>
+		<localizart>
+			<subject>Get Localizar-T new password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]Hi! [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	To reset your Localizar-T password, [a href="https://www.localizar-t.com/[LINK_ACTIVACION]"] visit this web.[/a].
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]If it does not work, use this link:
+                	[br /][strong style="line-height:14px;"]https://www.localizar-t.com/[LINK_ACTIVACION][/strong]
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	You have 30 minutes to reset it. Otherwise, you will have to go to Forgot your password again.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Any questions? Contact to [a href="mailto:info@localizar-t.com.ar"]Help Desk[/a]. Please dont answer this email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Thanks,[br][b]Localizar-T Team[/b]
+                [/span]
+            [/div]
+			</data>
+		</localizart>
+		<shootup>
+			<subject>Get ShootUp new password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]Hi! [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	To reset your ShootUp password, [a href="https://www.localizar-t.com/[LINK_ACTIVACION]"] visit this web.[/a].
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]If it does not work, use this link:
+                	[br /][strong style="line-height:14px;"]https://www.localizar-t.com/[LINK_ACTIVACION][/strong]
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	You have 30 minutes to reset it. Otherwise, you will have to go to Forgot your password again.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Any questions? Contact to [a href="mailto:support@shootupsystem.com"]Help Desk[/a]. Please dont answer this email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Thanks,[br][b]ShootUp Team[/b]
+                [/span]
+            [/div]
+			</data>
+		</shootup>
+		<adt>
+			<subject>Get an ADT FindU new password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]Hi! [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+            [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+            	To reset your ADT FindU password, [a href="https://www.adtfindu.com/[LINK_ACTIVACION]"]visit this web.[/a].
+            [/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]If it does not work, use this link:
+                	[br /][strong style="line-height:14px;"]https://www.adtfindu.com/[LINK_ACTIVACION][/strong]
+                [/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                You have 30 minutes to reset it. Otherwise, you will have to go to Forgot your password again.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Any questions? Contact to [a href="mailto:info@adtfindu.com"]Help Desk[/a]. Please dont answer this email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Thanks,[br][b]ADT FindU Team [/b]
+                [/span]
+            [/div]
+			</data>
+		</adt>
+	</recupero_password>
+	<info_traking_viajes>
+		<subject>Tracking [COD_TRAKING]</subject>
+		<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hi![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Your tracking number is: [strong style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"][COD_TRAKING][/strong].
+				[/span]
+				[div style="line-height:18.75pt;margin-top:10pt;">
+					[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040; font-style:italic"]
+						Please follow it in the following [a href="[LINK_TRAKING]"]link[/a].
+					[/span]
+				[/div]	
+			[/div]
+			[div style="line-height:18.75pt;margin-top:10pt"] [/div]
+			[div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]If it does not work, use this link:
+                	[br /][strong style="line-height:14px;"][LINK_TRAKING][/strong]
+                [/span]
+            [/div]
+            [div style="line-height:18.75pt;margin-top:10pt"] [/div]
+			[div style="line-height:18.75pt;margin-top:10pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Any questions? Contact the [a href="mailto:info@shootupsystem.com"]Help Desk[/a]. Please do not answer this mail.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Thanks,[br][b]The ShootUp Team[/b]
+                [/span]
+            [/div]
+		</data>
+	</info_traking_viajes>
+</clientes>

@@ -1,0 +1,5 @@
+
+ 
+ 05:50:53 - IP: 
+Error executing: EXEC Robot_OEA_estadisticas
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.

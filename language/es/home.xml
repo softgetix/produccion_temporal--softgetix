@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<localizart>
+		<label_iniciar_session>Iniciar Sesión</label_iniciar_session>
+		<usuario>Usuario</usuario>
+		<password>Contraseña</password>
+		<olvido_contrasena>¿Olvidó su contraseña?</olvido_contrasena>
+		<bloqueo_mayuscula>El bloqueo de mayúsculas está activado</bloqueo_mayuscula>
+		<ingresar>Ingresar</ingresar>
+		<msg_datos_incorrectos>Usuario y/o Contraseña incorrecta.</msg_datos_incorrectos>
+		
+		<recupero_contrasena>
+			<ingresar_mail>Ingrese su e-mail</ingresar_mail>
+			<btn_enviar>Enviar</btn_enviar>
+			<msg_ok>Tu solicitud ha sido procesada con éxito!</msg_ok>
+			<msg_spam>Se envió a tu casilla de correo los datos de acceso para cambiar tu contraseña. Recuerda revisar tu casilla de Spam en caso que no hayas recibido los datos de activación.</msg_spam>
+			<msg_ingrese_mail>No se ingresó el mail</msg_ingrese_mail>
+                        <msg_campos_obligatorios>Todos los campos son requeridos.</msg_campos_obligatorios>
+			
+			<msg_caduco_link>El link ha caducado. Solicite nuevamente el cambio de contraseña.</msg_caduco_link>
+			<msg_error_link>La URL no es válida.</msg_error_link>
+                        
+                        <msg_ok_actualizacion>El cambio se ha realizado con éxito!</msg_ok_actualizacion>
+			<msg_error_actualizacion>No se pudo actualizar la contraseña, vuelva a intentar.</msg_error_actualizacion>
+			<msg_error_formato_password>Verifique el formato de la contraseña. Debe contener al menos 10 carácteres, números y letras.</msg_error_formato_password>
+			<msg_error_coinciden_password>Las contraseñas no coinciden.</msg_error_coinciden_password>
+			<msg_error_actual_password>La contraseña actual es incorrecta.</msg_error_actual_password>>
+                        <msg_error_pass_iguales>La contraseña nueva debe ser diferente a la actual.</msg_error_pass_iguales>
+                        
+			<title_recupero>Recupero de Contraseña</title_recupero>
+                        <password_actual>Contraseña actual</password_actual>
+			<nueva_contrasena>Nueva Contraseña</nueva_contrasena>
+			<repita_contrasena>Repita la Contraseña</repita_contrasena>
+			<btn_continuar>Continuar</btn_continuar>
+		</recupero_contrasena>
+	</localizart>
+	<adt>
+		<donde_esta_title>Dónde está?</donde_esta_title>
+		<donde_esta_txt>Conozca la ubicación en tiempo real.</donde_esta_txt>
+		<donde_estuvo_title>Dónde estuvo?</donde_estuvo_title>
+		<donde_estuvo_txt>Acceda a los recorridos históricos.</donde_estuvo_txt>
+		<mis_lugares_title>Mis lugares</mis_lugares_title>
+		<mis_lugares_txt>Configure sus lugares de preferencias.</mis_lugares_txt>
+		<mis_alertas_title>Mis alertas</mis_alertas_title>
+		<mis_alertas_txt>Reciba notificaciones inmediatas.</mis_alertas_txt>
+	</adt>
+</clientes>

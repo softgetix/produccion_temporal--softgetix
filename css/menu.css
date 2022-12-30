@@ -1,0 +1,45 @@
+
+html{background:#F6F6F6 !important;}
+
+#navbar{
+	z-index:9999 !important;
+	width:100%;	
+	position:fixed;
+	display:block; 
+	clear:both;
+	background-color:#FFF;
+	border-bottom:1px solid #D9D9D9;
+	box-shadow: 0 0 6px 0;
+	padding:10px 0 4px 0;
+	font-size:11px;
+	color:#A9A9A9;
+}	
+
+#navbar img#logoSite{
+	float:left;
+	margin-left:16px;
+}
+
+#navbar fieldset{float:right !important; padding:0 16px !important;; border:none !important; margin:0px !important;}
+#navbar fieldset .userLogueado{ float:right; margin-bottom:10px; width:100%; text-align:right; margin-right:6px;}
+#navbar fieldset .userLogueado span.logout a{text-decoration:none !important; font-weight:bold; color:#A9A9A9;}
+#navbar fieldset .userLogueado span.nameUser{color:#00237E;}
+
+
+#navbar .menu{font-weight:bold; z-index: 9;	text-transform:uppercase; float:right;}
+#navbar .menu ul{ margin: 0; padding: 0; list-style-type: none; z-index: 9;}
+#navbar .menu ul li{display: inline; float: left; z-index: 9; position: relative;} /*position: relative;*/
+#navbar .menu ul li a{ display: block; *display: inline; padding: 4px !important; margin: 0 2px; line-height: 18px; text-decoration: none;	z-index: 9; color:#A9A9A9;}
+#navbar .menu ul li:hover a,
+#navbar .menu ul li.active_menu a{color:#616161;}
+
+
+#navbar .menu ul li ul{ position: absolute; left: 0; display: block; visibility: hidden; z-index: 10; background:#FFF;  border:1px solid #DBDBDB;}
+#navbar .menu ul li ul li{display: list-item;float: none;z-index: 10; border-bottom:1px solid #DBDBDB;}
+#navbar .menu ul li ul li ul{top: 0;z-index: 10;}
+#navbar .menu ul li ul li a{width: 208px; height: 20px; line-height: 18px; padding: 4px 5px; margin: 0; z-index:11; color:#A9A9A9 !important; font-size:10px !important;}
+
+#navbar .menu ul li ul li a:hover{color:#616161 !important;}
+
+.downarrowclass{ position: absolute; top: 7px; right: 5px;}
+.rightarrowclass{ position: absolute; top: 5px; right: 5px;}

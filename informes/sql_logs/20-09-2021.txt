@@ -1,0 +1,8 @@
+
+ 
+ 05:50:05 - IP: 
+Error executing: select  distinct cl_id, cl_razonSocial, dbo.pallets_creditos_por_Fabricante (cl_id) as Credito,  dbo.Pallets_por_referencia_instancia (cl_id , 2)  as Aprobados ,   dbo.Pallets_por_referencia_instancia (cl_id , 3) as EnProcesoRecupero, dbo.Pallets_por_referencia_instancia (cl_id , 4) as Retirados from tbl_viajes with (nolock)
+inner join tbl_clientes with (nolock) on cl_id = vi_dador 
+
+  where vi_vt_id = 29
+Message DB: An insufficient number of arguments were supplied for the procedure or function dbo.pallets_creditos_por_Fabricante.

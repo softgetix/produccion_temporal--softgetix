@@ -1,0 +1,47 @@
+
+#mapa25 {
+	height: 400px;
+}
+
+input.buscar-ref{
+	background-attachment: scroll !important;
+    background-clip: border-box !important;
+    background-color: #FFF !important;
+    background-image: url("../imagenes/lupa.png") !important;
+    background-origin: padding-box !important;
+    background-position: right center;
+    background-repeat: no-repeat !important;
+    background-size: auto auto !important;
+    border: 1px solid #7F9DB9;
+    display: block;
+    height: 20px;
+	line-height:20px;
+    /*margin-bottom: 0 !important;*/
+    padding-right: 25px;
+	padding-left:2px;
+	float: left;
+    margin-right: 5px;
+}
+
+
+input.buscar-ref.placeholder {
+	color:#A7A7A7  !important;
+	font-size:11px !important;
+	font-style:italic;}
+
+::-webkit-input-placeholder {
+	color:#7C7C7C  !important;
+	font-size:11px !important;
+	font-style:italic;}
+::-moz-placeholder { 
+	color:#7C7C7C !important;
+	font-size:11px !important;
+	font-style:italic;} /* firefox 19+ */
+:-ms-input-placeholder {
+	color:#7C7C7C !important;
+	font-size:11px !important;
+	font-style:italic;} /* ie */
+input:-moz-placeholder {
+	color:#7C7C7C  !important;
+	font-size:11px !important;
+	font-style:italic;}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carrousel{*margin-top:20px;}
+.carrousel .cuadro{
+	z-index:9;
+	position:relative;
+	*margin-top:-15px;
+}
+
+#slideshow{
+	width:875px;
+	min-height:252px;
+	overflow:hidden;
+}
+.carrousel #slideshow a{
+	width:875px;
+	height:252px;
+}
+#slideshow img{display:none ;}
+.carrousel .nav{
+	cursor:pointer;
+	display:block;
+	position:absolute;
+	z-index:30; display:none;
+	top:0px;
+}
+.carrousel .nav a span{display:none;}
+.carrousel:hover .nav.der,
+.carrousel:hover .nav.izq{display:block;}
+.carrousel:hover .nav.play{}
+.carrousel .nav.der{ right:0px; }
+.carrousel .nav.izq a{ background:url(../img/nav_izq2.png) left top no-repeat;}
+.carrousel .nav.der a{ background:url(../img/nav_der2.png) left top no-repeat;}
+.carrousel .nav a{
+	display:block;
+	height:252px;
+	width:80px;
+	cursor:pointer;}
+	
+.bullet_carrousel{
+	cursor:pointer;
+	float:left;
+	display:block;
+	width:17px;
+	height:17px;
+	margin:0 4px 0 0;	
+	background-image:url(../img/bullet_carrousel.png); 
+	background-position:-17px 0px; 
+	display:block;}
+.bullet_carrousel span{display:none;}
+.bullet_carrousel.on,.bullet_carrousel:hover{background-position:-0px 0px; }
+	
+#galeria{
+	float:right;
+	position:relative;
+	bottom:10px;
+	right:80px;
+	z-index:30;}

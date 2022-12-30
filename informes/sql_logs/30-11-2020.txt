@@ -1,0 +1,206 @@
+
+ 
+ 12:49:10 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa, un_mostrarComo as equipo
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10004,11758) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:53:04 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:53:24 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:53:29 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:53:51 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:55:10 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as Reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:55:20 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as Reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:56:02 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as Reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:56:58 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as Reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 12:58:24 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as Reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10658,12195) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:06:56 - IP: 192.168.0.1
+Error executing: dbo_db_informe_falta_de_reporte '10658,12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:08:35 - IP: 192.168.0.1
+Error executing: exec dbo_db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:09:19 - IP: 192.168.0.1
+Error executing: exec dbo_db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:10:58 - IP: 192.168.0.1
+Error executing: exec dbo_db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:11:08 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa, un_mostrarComo as equipo
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (10004,11758) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:12:31 - IP: 192.168.0.1
+Error executing: exec dbo_db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:25:58 - IP: 192.168.0.1
+Error executing: select mo_matricula as Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) as 'ultimo reporte', case when cl_abbr is null then cl_razonSocial else cl_abbr end as Empresa, un_mostrarComo as equipo
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (11425,11842,12008,10658,12195,11757,10004,11758,11760,12122,11456,
+11812) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 13:27:33 - IP: 192.168.0.1
+Error executing: select mo_matricula Patente, dbo.formatofechaamigable (sh_fechaGeneracion  ) reporte, case when cl_abbr is null then cl_razonSocial else cl_abbr end Empresa
+from tbl_moviles with (nolock)
+inner join tbl_clientes with (nolock) on mo_id_cliente_facturar = cl_id 
+inner join tbl_unidad with (nolock) on un_mo_id = mo_id
+inner join tbl_sys_heart with (nolock) on sh_un_id = un_id
+where mo_id_cliente_facturar in (11425,11842,12008,10658,12195,11757,10004,11758,11760,12122,11456,
+11812) and mo_id_tipo_movil = 3 and mo_borrado = 0
+and sh_fechaGeneracion > CURRENT_TIMESTAMP - 30 and sh_rd_id > 1 
+and DATEDIFF (HOUR , sh_fechageneracion , CURRENT_TIMESTAMP ) > 8
+order by sh_fechaGeneracion desc
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 14:09:15 - IP: 192.168.0.1
+Error executing: exec db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.
+
+ 
+ 14:09:19 - IP: 192.168.0.1
+Error executing: exec db_informe_falta_de_reporte ' 12195'
+Message DB: Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library (such as ISQL) or ODBC version 3.7 or earlier.

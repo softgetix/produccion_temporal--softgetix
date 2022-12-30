@@ -1,0 +1,20 @@
+
+ 
+ 05:50:03 - IP: 
+Error executing: select cl_abbr ,  re_nombre , re_ubicacion,  re_numboca, dbo.Pallets_por_referencia( cl_id, re_id ) as Cantidad, re_cuit from tbl_referencias with (nolock)
+inner join tbl_usuarios with (nolock) on us_id = re_us_id 
+inner join tbl_clientes with (nolock) on us_cl_id = cl_id
+where re_rg_id = 120
+and re_borrado = 0
+order by Cantidad desc
+Message DB: Invalid column name 're_cuit'.
+
+ 
+ 05:51:07 - IP: 
+Error executing: exec pallets_oportunidades_recupero 1,150,150, 100
+Message DB: The statement has been terminated.
+
+ 
+ 05:52:07 - IP: 
+Error executing: exec pallets_oportunidades_recupero 2,150,150, 100
+Message DB: The statement has been terminated.

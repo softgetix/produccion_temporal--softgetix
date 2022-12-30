@@ -1,0 +1,28 @@
+
+<style>
+.class-categoria,
+.class-menuPadre,
+.class-menuHijo{
+	width:300px !important;
+}
+
+
+.filaCat{
+	background:#D77100 !important;
+	height:25px;
+	line-height:25px;}	
+
+.class-categoria{
+	font-weight:bold !important;
+}
+.class-menuPadre{
+	padding-left:20px !important;}
+
+.class-menuHijo{
+	padding-left:40px !important;
+	}	
+
+.class-menuPadre img,
+.class-menuHijo img{
+	margin-right:10px;}
+</style>

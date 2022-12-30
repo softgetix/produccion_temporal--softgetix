@@ -1,0 +1,11 @@
+.divTablaEstado{
+   width:100% !important;
+   height:250px;
+   overflow-y:auto !important;
+   overflow-x:hidden;
+}
+
+
+td{
+	text-align:left !important;	
+}

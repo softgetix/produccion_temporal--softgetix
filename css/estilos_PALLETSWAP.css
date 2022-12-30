@@ -1,0 +1,17 @@
+.solapas .contenido table thead td {background: #5779FF !important;}
+.solapas .contenido table thead td span.campo1{color: #FFFFFF;}
+.solapas .contenido table thead td span.campo2{color: #CCCCCC;}
+
+label.placeholder, select option.placeholder{
+	color:#1155CC !important;
+}
+
+.button.colorRed{
+	border-color: rgb(109, 206, 199);
+	border-bottom-color: #00DBCD;
+	background-color: rgb(100, 182, 176);
+	text-decoration: none;
+        color: #fff;
+}
+
+legend {color:#1155CC;}

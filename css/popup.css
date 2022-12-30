@@ -1,0 +1,16 @@
+#popup-content {
+	/*width: 900px;*/
+	width:100%;
+}
+#main.sinColIzq {
+	margin-left: 0;
+}
+#mapa25.popup {
+	height: 300px;
+}
+#content {
+	padding: 5px;
+	top:0px !important;
+	position:inherit !important;
+	width:auto !important;
+}

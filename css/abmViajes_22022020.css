@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div,  p, a, img, strong,ol, ul, li,fieldset, form, label,table, caption, tbody, tfoot, thead, tr, th, td { 
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; vertical-align: baseline; 	text-decoration: none; 
+}
+html,body,form{margin:0px;height:100%;}
+label,fieldset{cursor:default !important;}	
+strong{font-weight:bolder;}
+a { color: #666;}
+:focus { outline: 0; }
+/* body { line-height: 1; color: #666; background: white; font-family: Helvetica, arial, sans-serif; color: #666; font-size: 12px;} */
+body { line-height: 1; color: #666; color: #666; font-size: 11px;}
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td {text-align: left; font-weight: normal; }
+p { line-height: 18px; text-align: left;} 
+
+
+/* Formularios */
+
+label { display: block; margin-bottom: 4px; line-height:26px;}
+input:not(.customfile-input), textarea, select { border: 1px solid #ccc; height: 22px; display: block; margin-bottom: 16px; width: 100%; text-indent: 5px;}
+input.auto, fieldset.auto { width: auto !important; height: auto !important;}
+input[type=checkbox] { position: relative; top: -2px; margin-right: 10px;}
+select, input, textarea {/*height: 26px;*/ font-size:12px; font-family: Helvetica, arial, sans-serif; color: #666;}
+select { text-indent: 0; height: 26px; line-height:16px;}
+textarea { height: auto; resize:none; padding: 7px; width: 98%; line-height: 16px; text-indent: 0;}
+.muy_largo { width: 600px !important; }
+.largo { width: 400px !important; }
+.mitad_largo { width: 185px !important; }
+select.mitad_largo{width: 187px !important;}
+.mediano { width: 316px !important; }
+.semi_corto { width: 90px !important;}
+.corto { width: 110px !important;}
+.muy_corto { width: 66px !important;}
+
+input.no_margin.date.float_l,
+input.no_margin.date2.float_l{width:80px;}
+
+.input_destacado { font-size: 14px; font-weight: bold;}
+
+/*tabla*/
+table { border-bottom: 0; border-right: 0; clear: both; line-height: 16px; color: #444;}
+td { /*padding:8px 4px 8px 4px;*/ padding:8px 0; border-width: 0 1px 1px 0; text-align:center; vertical-align: middle; word-wrap: break-word !important; }
+thead td { font-size: 11px;border-bottom:1px solid #dadada; border-top:1px solid #dadada; }
+tbody td { vertical-align:top;}
+table.listado-viajes td{text-align:left;} 
+/**/
+
+
+.boton{/* background: #F3F3F3; padding: 7px 0px 7px 0px; border-radius:5px; border:1px solid #DADADA; display: block; float: left; color:#FFFFFF; font-weight: bold; font-size: 12px;*/ display:block;}
+.boton:hover {color:#F3F3F3 !important;}
+.boton span{ position: relative; top: 3px;} 
+/*.boton.active{ background:#F2F2F2; color:#b8b8b8; cursor:default;}*/	
+	
+.boton.azul{background:#3C8DDE;}
+.boton.verde{background:#339933}
+.button.accion,
+.button_xls.accion{width:100% !important; }
+	
+.boton.flechas{ font-size:25px !important; padding-top:5px; padding-bottom:9px;}
+
+input.buscar{
+	background:url(../imagenes/lupa.png) 302px 6px no-repeat;
+	padding-right: 25px;
+	height:25px;
+	width:300px;
+	margin-bottom:0px !important;
+	position:relative;
+	top:4px;
+	left:20px;
+	margin-right:25px;}	
+
+.box_buscador{margin-bottom: 4px;}
+.box_buscador input.buscar{left: 0px; margin-right: 6px;}
+
+a#deleteBusqueda {position:relative; margin-left:-35px; top:6px; float:left; display:block;
+	height:21px; width:25px; background:#FFF; padding-top:4px;
+}
+
+a.link, span.link{color:#1155CC;}
+a.link:hover{text-decoration:underline; color:#1155CC;}
+a.link.no_hover:hover{color:#1155CC;}
+
+table.listado-viajes.bottom-rows tbody td{border-bottom:1px solid #dadada;
+}
+.solapas .contenido table.bottom-rows tbody tr:hover td{background:#D4D4D4 !important;}
+	
+
+/**** REFERENCIAS ****/	
+.solapas .contenido table.bottom-rows tbody tr.refencia-origen td,
+.color-origen{background:#E3EEF9;}
+	
+span.etiqueta-referencia{
+	display:block;
+	width:11px;
+	height:11px;
+	border: 1px solid #CCCCCC;
+	margin-right:5px;
+}
+span.txt-referencia{
+	line-height:11px;
+	font-size:10px;
+	font-style:italic;}	
+	
+span.txt-referencia.label{
+	text-decoration:underline;}		
+/**** ****/
+
+tbody tr.viaje-finalizado td,
+.color-fiajes-finalizados{background:#ccf2cc !important;}
+		
+
+#busqueda-avanzada span.calendario.mes-actual{text-align:left !important;}
+#busqueda-avanzada span.calendario.mes-actual select{margin-right:4px}	
+	
+/**** BUSCADOR *****/
+#busqueda-avanzada select.anio{
+	width:54px;
+	font-size:11px;
+	height:20px;
+	padding:0px;
+	margin-left:5px;}
+
+.calendario{
+	margin:0px;
+	padding:0px;}
+
+	
+/***** general *****/
+label.busqueda{
+	line-height:35px;}
+	
+span.stat_graficos{
+	width:240px;}
+span.stat_graficos strong{
+	font-weight:bold !important;}
+	
+.paginador{
+	background: #f0f0f0!important;
+	border-top:1px solid #dadada;
+	text-align:left;
+	padding-left:10px;}	
+
+.ref-info{
+	font-style:italic !important;
+	font-size:10px !important;}		
+
+a.excel span.ico_excel{
+	background-image:url(../imagenes/excel.png);
+	background-repeat:no-repeat;
+	background-size:21px 21px;
+	height:21px;
+	width:21px;
+	display:block;}	
+
+a.excel{
+	float:right;
+	padding-right:30px;
+	margin-top:5px;}
+	
+a.icon{
+	background-repeat:no-repeat;
+	height:16px;
+	width:16px;
+	display:block;
+	margin:0px !important;
+	padding:0px !important;}			
+/*	
+a.icon.ico_eliminar{
+	background-image:url(../imagenes/cerrar.png);}
+a.icon.ico_editar{
+	background-image:url(../imagenes/edit.png);}
+*/	
+a.icon.colapsar{
+	height:11px;
+	width:10px;
+	margin-left:5px !important;
+	margin-right:5px !important;
+	position:relative;
+	top:2px;}
+a.icon.colapsar.off{
+	background-image:url(../imagenes/icon_collapsar_off.png);}					
+a.icon.colapsar.on{
+	background-image:url(../imagenes/icon_collapsar_on.png);}	
+a.icon.colapsar.colapsarV2.off{
+		background-image:url(../imagenes/icon_collapsar_off_2.png);}					
+a.icon.colapsar.colapsarV2.on{
+		background-image:url(../imagenes/icon_collapsar_on_2.png);}	
+	
+a.iconOnOff{
+	background-repeat:no-repeat;
+	height:20px;
+	width:67px;
+	display:block;
+	margin:0px !important;
+	padding:0px !important;
+	cursor:pointer;}			
+	
+a.iconOnOff.iconOn{
+	background-image:url(../imagenes/btn_on.png);}
+a.iconOnOff.iconOff{
+	background-image:url(../imagenes/btn_off.png);}	
+	
+fieldset.EstadoOnlineOnOf{
+	background:#F0F0F0;
+	width:163px;
+	padding:10px 10px 0 10px;
+	border-radius:4px; 
+	border:1px solid #DADADA;}	
+	
+#ocultarFiltros{
+	font-size:12px;
+	display:inline-block;
+    transform:scale(1,2);
+    -webkit-transform:scale(1,2);
+    -moz-transform:scale(1,2);
+    -ms-transform:scale(1,2);
+    -o-transform:scale(1,2);
+	background:#f0f0f0;
+	line-height:21px;
+	height:23px;
+	width:10px;
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}	
+
+
+
+/*-- ALTA DE VIAJES --*/
+.transparencia {
+   opacity: .25;
+   -moz-opacity: .25;
+   filter:alpha(opacity=25);
+}
+
+input::-webkit-input-placeholder {
+    color:#D77100;
+    font-weight: bold;
+}
+input:-moz-placeholder {
+	color:#D77100;
+	font-weight: bold;
+}
+label.placeholder, select option.placeholder{
+	color:#D77100;
+   	font-weight: bold;
+}
+label.placeholder.txt_ie{line-height:14px;}
+
+/**** input agregar ****/
+input#geozona{
+	padding-right: 44px;
+	width:268px !important;
+}
+
+#geozona.ui-autocomplete-loading {
+  background: white url('../imagenes/ajax-loader.gif');
+  background-repeat:no-repeat;
+  background-position:269px center;
+}
+
+/**** ****/
+
+span.obligatorio{
+	 color:#f94a4a;
+	 float:left;
+	 display:block;
+	 padding-left:2px;
+	 font-size:10px;
+	 font-weight:bold;
+	 line-height:27px;
+	 font-style:italic;
+}
+
+.solapas .estado-viaje{width: 130px; background: #E4E4E4; border:1px solid #ccc; text-align: center; padding: 10px 0; float:left;
+	margin: 2px 0 0 2px;
+    padding: 6px 0;
+	color:#666;}
+.solapas .estado-viaje.first{margin-left:15px !important;}
+.solapas .estado-viaje.online-1{
+ 	background: #FFBA75;
+    border-color: #FF8000;}	
+.solapas .estado-viaje.online-2{
+ 	background: #A7C879;
+    border-color: #66981F;}	
+.solapas .estado-viaje.online-3{
+ 	background:#666;
+    border-color:#333;
+	color:#FFF;}
+
+			
+/*
+tr.filaPar td{
+	background:#F7F7F7 !important;}
+tr.filaImpar td{
+	background:#FFF !important;
+}*/	
+		
+.title-graficos{
+	border: 1px solid #DADADA;
+    color: #333333;
+    font-weight: bold;
+    padding-left: 35px;
+    text-align: left;
+	display:block;
+	clear:both;
+}
+
+h1.title-graficos{
+	font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+	background-color: #F7F7D5;
+}
+h2.title-graficos{
+	font-size:12px;
+	background-color:#F7F7F7;
+	line-height: 45px;}		
+
+
+/***** Estilos para filtro en los combos de Moviles y Conductor ******/
+#buscador-movil{
+	display: block;
+    position: absolute;
+    width: 162px;
+	display:none;
+	border-right-color:#FFF;}
+#select-movil{
+	position:absolute;
+	height:200px;
+	display:none;
+	z-index: 1;
+	top:299px;}
+
+#buscador-conductor{
+	display: block;
+    position: absolute;
+    width: 162px;
+	display:none;
+	border-right-color:#FFF;
+	/*top:311px;*/}
+#select-conductor{
+	position:absolute;
+	height:200px;
+	display:none;
+	z-index: 1;
+	top:336px;}
+/***** ******/
+
+
+a.resetDates{position:relative; left:-15px; top:-3px; display:none; float:right !important; margin:0px !important; text-decoration:none !important;}
+div.box_assign_datetime{background:#D4D4D4; border:1px solid #CCC; clear:both; margin-top:10px; width:220px; padding: 0 4px;}
+div.box_assign_datetime a{position:relative; left:5px; top:4px;}
+div.box_reset_datetime{margin-top:15px; text-align:center !important;}
+div.box_reset_datetime span.campo1{font-weight:bold; }
+
+div.box_assign_datetime.box_pod{width:240px;}
+div.box_assign_datetime.box_pod label{margin-bottom: 0px !important;}
+
+div.stats{background:#f0f0f0; border:1px solid #ccc;}
+div.stats span {line-height:30px; margin:0 20px;}
+
+#viajes-listado.contenido fieldset{background:none !important; border: none !important;}
+
+#procesarViajes {
+	background: #fbecae none repeat scroll 0 0;
+    border: 1px solid #eec00b;
+    color: #999;
+    float: right;
+    font-size: 10px;
+    line-height: 11px;
+    margin-top: 5px !important;
+    padding: 2px 4px;
+    width: 152px;
+}
+
+.tooltip .tooltiptext {
+   width: 160px !important;
+}
+
+.tooltip.POD_SMS .tooltiptext {
+	background-color: #D9534F; /*#be2d2d;*/
+	width: 100px !important;
+ }
+ .tooltip.POD_SMS .tooltiptext::after {
+	 border-color: #D9534F transparent transparent transparent;
+ }
+
+ .icon_more_info{background: url(../imagenes/kcc-proveedor-on.png) 0px 0px no-repeat; width: 52px; height: 25px;}
+
+ /**** PopupTrafico ****/
+ .traficoView:hover{cursor: pointer;}
+
+
+.topupTrafico{position:relative; display:block; }
+.topupTrafico a{display:block; color:#000;}
+.topupTrafico a:hover{color:#000;}
+.topupTrafico img{float:right; position:relative; top:4px;}
+/**/
+.topupTrafico div.contenedorPopup/*dl*/{background:#FFF; border:1px solid #EEE; padding:5px 10px; /*position:absolute; right:0; margin-top:-6px;*/  min-width:120px; 
+               width: 400px; top: -150px;
+               margin-right: auto; margin-left: auto; margin-top: 90px; border: 4px solid #CBCBCB; padding: 10px;
+}
+.topupTrafico dl dt{clear:both; line-height:12px; text-align:left;}
+
+.topupTrafico .showPopup{
+    width: 100%; position: fixed; height: 100%; left: 0px; top: 0px; z-index: 999;
+    background:rgba(0,0,0,0.5);
+}
+
+.filterPopup div.contenedorPopup a.button{width: 120px !important; display: inline-block; margin: 0 10px;}

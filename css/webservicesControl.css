@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset.not_bg_white.clear{padding-top:8px;}
+
+.steps{ margin:4px auto 10px auto; clear:both; padding:4px; border:1px solid; border-color: #333 /*transparent #333 #333*/; background:#FFF; display:block; /*width:425px; float:left;*/}
+
+.steps .step{border-style:solid; border-width:0px; width:auto; height:auto; position:relative;}
+.steps .step div{ float:left;}
+.steps .step>div.text{line-height:40px; width:auto; font-size:14px; padding:0 20px 0 4px; font-weight:bolder;
+		background:#B9B9B9; text-shadow: 4px 5px 4px #666; color:#FFF; font-family:Verdana, Geneva, sans-serif;}
+.steps .step.first>div.text{padding:0 20px;}
+	
+.steps .step>div.arrow{border-style:solid; border-width:20px; width:auto; height:auto;}
+.steps .step>div.arrow.right{border-color: #FFF #FFF #FFF #B9B9B9; margin-right:-20px;}
+.steps .step>div.arrow.left{border-color: #B9B9B9 #B9B9B9 #B9B9B9 #FFF;}
+.steps .step.last>div.arrow.right{border-color: transparent transparent transparent #B9B9B9;}
+	
+.steps .step.active_step .text{background:#3072b3; text-shadow: 4px 5px 4px #1F4974;}
+.steps .step.active_step .arrow.right{border-color: #FFF #FFF #FFF #3072b3;}
+.steps .step.active_step .arrow.left{border-color: #3072b3 #3072b3 #3072b3 #FFF;}	
+.steps .step.active_step.last>div.arrow.right{border-color: transparent transparent transparent #3072b3;}
+	
+#message_log{padding:10px 20px;}
+h2{font-size: 18px; line-height:20px; font-weight:bolder; font-family:Verdana, Geneva, sans-serif; color:#333;}

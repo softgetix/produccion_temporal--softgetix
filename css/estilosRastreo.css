@@ -1,0 +1,822 @@
+.tdEstado{
+	border-right: 1px solid #0257A2;
+}
+
+.tdEstado2{
+	border-right: 1px solid #0257A2;
+	float:left;
+}
+
+.floatLeft {
+	float:left;
+	margin-left:10px;
+}
+
+.clearBoth {
+	clear:both;
+}
+
+.floatLeft2 {
+	float:left;
+	margin-left:4px;
+	width:50px !important;
+}
+
+#divDatosInfoGps{
+	min-height:100px;
+	overflow-y:auto;
+}
+
+#divDatosInfoGpsVerMas{
+	height:25%;
+	min-height:100px;
+	font-size:10px;
+	overflow-y:auto;
+	border-bottom: 1px solid #666666;
+	display:none;	
+}
+
+.tituloGrupo{
+	font-weight:bold;
+	border-top: 1px solid #0257A2;
+	border-bottom: 1px solid #0257A2;
+	padding:0;
+	color:#333333;
+	margin-top: 2px ;
+	clear:both;
+}
+
+.contenidoGrupo2{
+	height:auto;
+	font-size:10px !important;	
+	margin: -1px 0 8px 0;
+	
+}
+
+#txtBuscar{
+	width:98%;
+	margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2px;
+    padding: 0 20x 0 0  !important;
+}
+/*
+#txtBuscar.ui-autocomplete-loading {
+  background-image: url('../imagenes/ajax-loader.gif') !important;
+  background-repeat:no-repeat;
+  background-position:96% center;
+}*/
+
+.tituloTablaReporte{
+   background-color:#333333;
+   color:#FFF;
+   text-align:center;	
+}
+
+.tituloTablaReporte a{
+   color:#FFF;
+   text-decoration:underline;
+}
+
+.movilListaReporteSeleccionado{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.movilListaReporte{
+	cursor:pointer;
+}
+
+.movilListaReporte2{
+	cursor:pointer;
+	font-size:9px !important;
+}
+
+.label{
+	color:#ffffff;
+	font-weight:bold;	
+	margin-top:12px;
+	margin-left:-4px;
+}
+.labels {
+    color: black;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 45px;     
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.labelRef{
+    color: black;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+    padding: 2px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+/*BOTON OCULTAR PANEL IZQUIERDO*/
+
+.btnOcultarPanel{
+	width:15px;
+	height:15px;
+	position:absolute;	
+	display:block;
+	cursor:pointer;
+}
+
+/*FIN BOTON*/
+
+
+#btnMedirDistancia{
+	display:block !important;	
+}
+
+#referencias{
+	display:block !important;
+}
+
+.infoGrupo{
+	font-size:9px; 
+	font-weight:normal !important;
+}
+
+.alertasGeneral{
+	width:250px;
+	height:20px;
+	position:absolute;
+	top:6px;
+	left: 100%;
+	margin-left:-340px;
+	/*background-color:red;	*/
+	font-size:11px;
+	color:#000 !important;
+	font-weight:700;
+}
+
+#imgAlertaGeneral{
+	display:none;	
+}
+
+.textoGrande{
+	font-size:13px;
+	font-weight:bold;	
+}
+
+img#imgPanel {
+	margin: 2px 10px;
+}
+#infoReferencias .imgGroup {
+	float: left;
+	margin: 4px;
+}
+#infoReferencias .groupName {
+	float: left;
+	margin: 4px;
+}
+#infoReferencias .actions {
+	float: right;
+	margin: 4px;
+}
+#infoReferencias .movilListaReporte {
+	float: left;
+	margin: 4px;
+}
+#infoReferencias .rowMovil {
+	clear: both;
+}
+#auto_txtBuscar, #auto_txtBuscarRef {
+	width: 190px;
+}
+th { 
+	padding: 3px;
+}
+#infoReferencias2 table th { 
+	text-align: left;
+}
+#infoListado table td { 
+	
+}
+td {
+	vertical-align: middle;
+}
+td.tdModificarGrupo,
+td.tdMail,
+td.tdCheckbox,
+td.tdToggle {
+	width: 10px;
+	text-align: center;
+	padding: 3px;
+}
+td.tdToggle {
+	padding-right: 5px;
+}
+
+#divScrollUltimosReportes{
+	margin-top:2px;
+	width:98%;
+	position: absolute !important;
+    top: 35px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    overflow-y: scroll !important;
+}
+#divScrollUltimosReportes ul {list-style-type: none;}
+#divScrollUltimosReportes td.tdNombre {vertical-align: middle;}
+#divScrollUltimosReportes td.tdMail {padding-bottom: 2px;}
+
+span.movilListaReporte {
+	padding: 2px;
+}
+span.movilListaReporteSeleccionado {
+	padding-left: 2px;
+}
+td.tdEstado {
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+	padding-right: 5px;
+}
+table.rastreoGrupo td {
+	padding: 2px;
+}
+table.rastreoGrupo tr:hover {
+	color: white;
+	background-color: #FE6500;
+	font-weight: bold;
+}
+
+/* Panel: Info Datos GPS */
+
+#tbl_infodatogps td {
+    border-top: 1px solid #ccc;
+    padding: 5px;
+	text-align:left !important;
+}
+
+#tbl_infodatogps td:nth-child(1) {
+    text-align: right;
+    color: #777;
+}
+
+#tbl_infodatogps tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+
+#rastreo-tabs .contenedor-vinietas{
+	width:16px;
+	position:absolute;
+	top:80px;
+	left:0px;}
+	
+#rastreo-tabs .contenedor-vinietas .vinieta{
+	width:16px;
+	clear:both;
+	border: 1px solid #DADADA !important;
+	background:#F0F0F0;
+	cursor:pointer;
+	margin-bottom: 1px;
+    padding: 5px;
+	z-index:1;
+}
+#rastreo-tabs .contenedor-vinietas .vinieta#btnPtosReferencias img { margin-left:2px;}
+
+
+#rastreo_mapa{
+	position:relative;
+	z-index:-1;}	
+	
+	
+	
+.pictureInPicture {
+    background-color: #cccccc;
+    border: 2px solid #D1D1D1;
+    color: black;
+    font-size: 10px;
+    height: 242px;
+    left: 100%;
+    margin-left: -380px;
+    margin-top: -470px;
+    position: absolute;
+    top: 100%;
+    width: 300px;
+	z-index:99;
+}
+
+.infoPictureStatusbar{
+    background-color: #ccc;
+    font-size: 11px;
+}
+
+.tituloPictureInPicture {
+    padding: 2px 0;
+    margin: 0;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}	
+
+#alertas-contenido tbody td { border-top: 1px #aaa solid; }
+/*#alertas-contenido2 thead td { border-top: 1px #aaa solid; }*/
+body{overflow:hidden;}
+
+
+
+/***** CORRESPONDIENTE A rastreoSeccionIzquierda.css *****/
+#divScrollUltimosReportes {
+    position: absolute;
+    top: 35px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    overflow-y: scroll;
+}
+
+#divScrollUltimosReportes ul {
+    list-style-type: none;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.boxed {
+    border: solid 1px black;
+}
+
+.pad-2px {
+    padding: 2px;
+}
+
+.pad-5px {
+    padding: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.group-head {
+    margin-top: 2px;
+    border: solid 1px silver;
+    /*background-color: lightgray;*/
+    padding: 5px;
+    cursor: pointer;
+    /*height: 20px;*/
+}
+
+.group-head.group-moviles{background-color: #94C0ED;}
+.group-head.group-referencias{background-color: #D4D4D4;}
+
+
+.expandir {
+    background-position: -527px -117px;
+    /*
+    background-position-x: -527px;
+    background-position-y: -117px;*/
+}
+
+.colapsar {
+    background-position: -558px -117px;/*
+    background-position-x: -558px;
+    background-position-y: -117px;*/
+}
+
+.expansor {
+    width: 16px;
+    height: 16px;
+    background-image: url('../imagenes/misc/iconset-black-alpha.png');
+}
+
+.group-head:hover {
+    background-color: #444;
+}
+
+.group-head:hover a {
+    color: white;
+}
+
+.group-head:hover .group-qty {
+    color: #bbb;
+}
+
+li.group-title {
+    padding: 2px 0px 0px 5px;
+    max-width: 175px;
+    overflow: hidden;
+}
+/*
+.group-head:hover li.group-title {
+    max-width: 65px;
+    overflow: hidden;
+}
+*/
+a.group-title {
+    font-family: Arial;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.group-qty {
+    margin: 1px 0px 0px 20px;
+    font: normal 9px "Lucida grande", Verdana;
+    color: #666;
+}
+
+.movil-motor {
+    margin-top: 4px;
+    /*border: solid 1px black; /* */
+    width: 12px;
+    height: 12px;
+}
+
+.movil-info {
+    padding: 0px 2px;
+    border-bottom: solid 1px #E8E8E8;
+    cursor: pointer;
+}
+
+.movil-info:hover {
+    background-color: #eaeaea;
+    /*
+    background-image: url("../imagenes/misc/iconset-black-alpha.png");
+    background-position-x: -91px;
+    background-position-y: -34px;
+    background-repeat: no-repeat;
+    */
+}
+
+.movil-info-highlight {
+    background-color: #c8c8ff;
+}
+
+.movil-info-highlight:hover {
+    background-color: #e0e0ff;
+}
+
+.movil-tick-right {
+    margin: 7px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.movil-info:hover .movil-tick-right {
+    background-image: url('../imagenes/misc/iconset-black-alpha.png');
+    background-position: -91px -34px;/*
+    background-position-x: -91px;
+    background-position-y: -34px;*/
+}
+
+.movil-info-highlight .movil-tick-right {
+    background-image: url('../imagenes/misc/iconset-black-alpha.png');
+    background-position: -91px -34px;/*
+    background-position-x: -91px;
+    background-position-y: -34px;*/
+}
+
+.movil-info:hover .movil-matricula {
+    /*
+    background-color: navy;
+    color: white;*/
+}
+
+.movil-matricula {
+    margin: 0px 2px;
+    max-width: 88px;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font: bold 11px Arial;
+}
+
+.contenido-grupo {
+    font: normal 10px "Lucida grande", Verdana;
+}
+
+.contenido-grupo > li {
+    margin-top: 1px;
+}
+
+.triple-check {
+    width: 13px;
+    height: 13px;
+    background-image: url('../imagenes/misc/checkstate.png');
+    background-repeat: no-repeat;
+}
+
+.checkstate-unchecked {
+    background-position: 0px 0px;/*
+    background-position-x: 0px;
+    background-position-y: 0px;*/
+}
+
+.checkstate-partlychecked {
+    background-position: -13px 0px;/*
+    background-position-x: -13px;
+    background-position-y: 0px;*/
+}
+
+.checkstate-checked {
+    background-position: -26px 0px;/*
+    background-position-x: -26px;
+    background-position-y: 0px;*/
+}
+
+.group-setcheck {
+    margin-top: 1px;
+    border: solid 1px silver;
+}
+
+.movil-info:hover .group-setcheck {
+    border: solid 1px white;
+}
+
+.movil-fechagen {
+    margin-top: 1px;
+    color: #0077CC;
+}
+
+.movil-tick {
+    /*padding: 2px 0px 0px 5px; /* */
+    margin: 6px 0px 0px 5px;
+    width: 12px;
+    height: 12px;
+    /*background-image: url('../imagenes/raster/black/check_12x10.png'); /* */
+    background-image: url('../imagenes/raster/black/check_8x6.png');
+    background-repeat: no-repeat;
+}
+
+._16x16 {
+    width: 16px;
+    height: 16px;
+    /*border: solid 1px white; /* */
+}
+
+.boton-panel-grupo {
+    display: none;
+    margin: 1px 2px 0px 2px;
+    border: solid 1px transparent;
+    border-radius: 3px;
+}
+
+.group-head:hover .boton-panel-grupo {
+    display: block;
+    background-color: silver;
+}
+
+.group-head:hover .boton-panel-grupo:hover {
+    background-color: white;
+}
+
+.asignar-grupo {
+    background-image: url('../imagenes/raster/black/transfer_16x12.png');
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+}
+
+.modificar-grupo {
+    background-image: url('../imagenes/raster/black/cog_16x16.png');
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+.tipo-evento {
+    font: normal 9px "Lucida Grande",Verdana;
+    white-space: nowrap;
+    max-width: 125px;
+    color: gray;
+}
+
+.velocidad-movil, .rumbo-movil {
+    color: gray;
+    font: normal 9px "Lucida Grande",Verdana;
+    padding: 0px 3px 2px 3px;
+}
+
+.rumbo-movil {
+    width: 20px;
+    font-weight: bold;
+}
+
+.velocidad-movil {
+    width: 54px;
+    margin-right: 17px;
+    text-align: right;
+}
+
+.rumbo-imagen {
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+    background-image: url('../imagenes/misc/8arrows_green_12x12.png');
+    background-repeat: no-repeat;
+}
+
+.movil-info-container {
+    width: 92%;}
+	
+.movil-info-container ul li.icon-referencia{
+	background:url(../imagenes/raster/black/map_pin_fill_8x12.png) left top no-repeat !important;}
+		
+	
+
+.rumbo-este     { background-position: 0px   0px; }
+.rumbo-noreste  { background-position: 0px -12px; }
+.rumbo-norte    { background-position: 0px -24px; }
+.rumbo-noroeste { background-position: 0px -36px; }
+.rumbo-oeste    { background-position: 0px -48px; }
+.rumbo-sudoeste { background-position: 0px -60px; }
+.rumbo-sur      { background-position: 0px -72px; }
+.rumbo-sudeste  { background-position: 0px -84px; }
+
+.hoverLatLng {
+    position: absolute;
+    z-index: 10;
+    
+    font: normal 13px "Courier New";
+    border: solid 1px black;
+    background-color: white;
+    width: 240px;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.hoverLatLng #hoverLat,
+.hoverLatLng #hoverLng {
+    font: bold 15px Arial;
+}
+
+.shown { display: block; }
+.hidden { display: none; }
+
+.shownOnDemand { display: block; }
+.hiddenOnDemand { display: none; }
+
+.expandedOnDemand {
+    background-position-x: -558px -117px;/*
+    background-position-x: -558px;
+    background-position-y: -117px;*/
+}
+
+.collapsedOnDemand {
+    background-position-x: -527px -117px;/*
+    background-position-x: -527px;
+    background-position-y: -117px;*/
+}
+
+.non-breaking {
+    white-space: nowrap;
+}
+
+/* Para cuando se muestra el panel de info GPS a la derecha */
+
+#colIzq {
+    position: relative;
+}
+
+#main {
+    /*float: left;*/
+    position: absolute;
+    left: 260px;
+    margin: 0px 5px 0px 0px;
+}
+
+/*
+#main.info-gps-activo {
+    right: 250px;
+}
+*/
+#main.seccion-izq-inactiva {
+    left: 5px;
+}
+
+#alertas {
+    position: absolute;
+    left: 261px;
+    right: 6px;
+}
+
+#alertas.info-gps-activo {
+    right: 256px;
+}
+
+#alertas.seccion-izq-inactiva {
+    left: 6px;
+}
+
+#infogps {
+    position: absolute;
+    float: right;
+    width: 244px;
+    top: 0px;
+    bottom: 2px;
+    right: 3px;
+    border: solid 1px #AAA;
+}
+
+#infogps .titlebar {
+    height: 25px;
+    padding: 10px;
+    background-color: #CCC;
+    color: white;
+}
+
+#infogps .title {
+    float: left;
+    padding: 5px;
+    color: black;
+    border: solid 1px #AAA;
+}
+
+#infogps .close {
+    float: right;
+    margin: 10px;
+}
+
+#infogps .contenido {
+    padding: 2px 0px 0px 2px;
+    margin: 0px;
+}
+
+#alertas {
+    position: fixed; 
+    width: auto; 
+    overflow: hidden; 
+    background: #e6e6e6; 
+    z-index: 5; 
+    bottom: 26px; 
+    right: 6px;
+}
+
+#mapa {
+    width: 100%;
+}
+
+/* Info datos GPS */
+
+.status-caption {
+    font-weight: bold;
+}
+
+.status-cmd {
+    border: solid 1px black;
+    font: normal 11px "Lucida Grande",Tahoma,Verdana;
+    color: black;
+    padding: 2px;
+}
+
+.status-pending {
+    background-color: rgb( 220, 220, 220 );
+    border-color: gray;
+}
+
+.status-ok {
+    background-color: rgb( 192, 255, 192 );
+    border-color: green;
+}
+
+.status-error {
+    background-color: rgb( 255, 192, 192 );
+    border-color: red;
+}
+
+.i-status{
+	width:15px;
+	height:17px;
+	margin:0 2px 0 2px;
+	background:url(../imagenes/status_mobil.png) left top no-repeat;}
+
+.i-status.gps_off{background-position:-16px 0px !important;}
+.i-status.gps_on{background-position:-16px -17px !important;}
+
+.i-status.wifi_off{background-position:-48px 0px !important;}	
+.i-status.wifi_on{background-position:-48px -17px !important;}
+
+.i-status.signal_1{background-position:-32px 0px !important;}
+.i-status.signal_2{background-position:-32px -17px !important;}
+.i-status.signal_3{background-position:-32px -34px !important;}
+.i-status.signal_4{background-position:-32px -51px !important;}
+.i-status.signal_5{background-position:-32px -68px !important;}
+
+.i-status.bateria_1{background-position:0px 0px !important;}
+.i-status.bateria_2{background-position:0px -17px !important;}
+.i-status.bateria_3{background-position:0px -34px !important;}
+.i-status.bateria_4{background-position:0px -51px !important;}
+.i-status.bateria_5{background-position:0px -68px !important;}
+/****/

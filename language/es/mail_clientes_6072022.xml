@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<recupero_password>
+		<palletswap>
+			<subject>Solicitud para cambio de password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hola [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Para recuperar tus datos de inicio en la Red Pallet Swap, [a href="https://login.redpalletswap.com/[LINK_ACTIVACION]"]ve a esta página.[/a].
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]Si no funciona, prueba copiar y pegar en tu navegador el siguiente enlace:
+                	[br /][strong style="line-height:14px;"]https://login.redpalletswap.com/[LINK_ACTIVACION][/strong]
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Ten en cuenta que el código caducará en 30 minutos. Transcurrido este tiempo, tendrás que volver a pedirnos que cambiemos tus datos.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Preguntas? Contacte a [a href="mailto:atencionalcliente@redpalletswap.com"]Atención al cliente[/a]. No responda a este email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Muchas gracias,[br][b]El Equipo de Red Pallet Swap [/b]
+                [/span]
+            [/div]
+			</data>
+		</palletswap>
+
+
+		<localizart>
+			<subject>Solicitud para cambio de password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hola [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Para recuperar tus datos de inicio de Forza, [a href="https://login.forzagps.com/[LINK_ACTIVACION]"]ve a esta página.[/a].
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]Si no funciona, prueba copiar y pegar en tu navegador el siguiente enlace:
+                	[br /][strong style="line-height:14px;"]https://login.forzagps.com/[LINK_ACTIVACION][/strong]
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Ten en cuenta que el código caducará en 30 minutos. Transcurrido este tiempo, tendrás que volver a pedirnos que cambiemos tus datos.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Preguntas? Contacte a [a href="mailto:info@localizar-t.com.ar"]Atención al cliente[/a]. No responda a este email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Muchas gracias,[br][b]El Equipo de Localizar-T [/b]
+                [/span]
+            [/div]
+			</data>
+		</localizart>
+		<adt>
+			<subject>Solicitud para cambio de password</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hola [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+            [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+            	Para recuperar tus datos de inicio de FindU, [a href="https://www.adtfindu.com/[LINK_ACTIVACION]"]ve a esta página.[/a].
+            [/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]Si no funciona, prueba copiar y pegar en tu navegador el siguiente enlace:
+                	[br /][strong style="line-height:14px;"]https://www.adtfindu.com/[LINK_ACTIVACION][/strong]
+                [/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Ten en cuenta que el código caducará en 30 minutos. Transcurrido este tiempo, tendrás que volver a pedirnos que cambiemos tus datos.
+                [/span]
+            [/div]    
+			[div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Preguntas? Contacte a [a href="mailto:info@adtfindu.com"]Atención al cliente[/a]. No responda a este email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Muchas gracias,[br][b]El Equipo de ADT FindU [/b]
+                [/span]
+            [/div]
+			</data>
+		</adt>
+	</recupero_password>
+	<novedades_delivery>
+		<subject>Novedades sobre el [VIAJE] [COD_VIAJE]</subject>
+		<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hola![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Mediante la presente se notifica las últimas novedades correspondientes al [VIAJE] [strong style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"][COD_VIAJE][/strong].
+				[/span]
+				[div style="line-height:18.75pt;margin-top:10pt;">
+					[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040; font-style:italic"]
+						[NOVEDAD]
+					[/span]
+				[/div]	
+			[/div]
+            [div style="line-height:18.75pt;margin-top:10pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Preguntas? Contacte a [a href="mailto:info@localizar-t.com.ar"]Atención al cliente[/a]. No responda a este email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Muchas gracias,[br][b]El Equipo de Localizar-T [/b]
+                [/span]
+            [/div]
+		</data>
+	</novedades_delivery>
+	<cuenta_satelital>
+		<subject>Credenciales para operar con Localizar-T</subject>
+			<data>
+			[p style="font-family:Arial,sans-serif;color:#404040;font-weight:normal;font-size:10.0pt;"]¡Hola [span style="font-family:Arial,sans-serif;color:#0A54A8;font-weight:normal;font-size:10.0pt;"][USUARIO][/span]![/p]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Te enviamos las credenciales y un documento adjunto para que puedas operar con Localizar-T mediante nuestro webservices.
+					[br/][strong style="line-height:14px;"]ClientID[/strong][span style="line-height:14px;"][CLIENT_ID][/span]
+					[br/][strong style="line-height:14px;"]ClientSecret[/strong][span style="line-height:14px;"][CLIENT_SECRET][/span]
+            	[/span]
+            [/div]
+			[div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Para recuperar tus datos de inicio de sesión a Localizar-T, [a href="[LINK_ACTIVACION]"]ve a esta página.[/a].
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"]
+                [span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]Si no funciona, prueba copiar y pegar en tu navegador el siguiente enlace:
+                	[br /][strong style="line-height:14px;"][LINK_ACTIVACION][/strong]
+            	[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+				[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+					Preguntas? Contacte a [a href="mailto:info@localizar-t.com.ar"]Atención al cliente[/a]. No responda a este email.
+				[/span]
+            [/div]
+            [div style="line-height:18.75pt"] [/div]
+            [div style="line-height:18.75pt"]
+            	[span style="font-size:10.0pt;font-family:Arial,sans-serif;color:#404040"]
+                	Muchas gracias,[br][b]El Equipo de Localizar-T [/b]
+                [/span]
+            [/div]
+			</data>
+	</cuenta_satelital>
+	
+</clientes>

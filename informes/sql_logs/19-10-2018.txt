@@ -1,0 +1,13 @@
+
+ 
+ 11:53:05 - IP: 192.168.0.1
+Error executing: select count (ui_ip) as 'Cantidad de móviles reportando via WS', ui_ip  as 'IP de empresa satelital', cl_razonsocial as 'Cliente'   from tbl_ultimo_ip
+ inner join tbl_unidad_gprs on ui_ug_id = ug_id 
+ inner join tbl_unidad on un_id = ug_un_id
+ inner join tbl_clientes on un_ds_id = cl_id
+ where ui_puerto = ?'
+ and ui_fecha > CURRENT_TIMESTAMP - 0.041
+ group by ui_ip, un_ds_id, cl_razonsocial
+Message DB: Unclosed quotation mark after the character string '
+ and ui_fecha > CURRENT_TIMESTAMP - 0.041
+ group by ui_ip, un_ds_id, cl_razonsocial'.

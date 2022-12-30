@@ -1,0 +1,28 @@
+/** estilo para el target popup*/
+.noob{ /*no obligatorio*/
+	display:none !important;
+}
+#wrapper{
+	width:100%;
+	min-width:0 !important;
+	padding:0;
+	height:100%;
+}
+#main{
+	width:100%;
+}
+#content{
+	height:100%;
+	overflow-x:hidden;
+}
+#mainBoxAM{
+	/*height:79%;*/
+}
+#mensajeError{
+	padding:0 3px;
+	border-top:3px solid #FFFF4A;
+	background-color:#FFFFAA;
+	font-size:11px;
+	line-height:13px;
+	color:red;
+}

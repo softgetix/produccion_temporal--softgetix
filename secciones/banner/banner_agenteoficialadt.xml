@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<public>
+	
+	<banner>
+		<message>Estimados tienen que tener un 50% de ventas ingresadas con abono pleno.</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+		
+
+	</banner>
+	<banner>
+	<message>CONTRATO ELECTRONICO. MAS INFORMACION.</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+	</banner>
+	<banner>
+	<message>TASA POLICIAL DE CORDOBA >> A PARTIR DEL 1 DE FEBRERO, </message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+	</banner>
+	<banner>
+	<message>TASA POLICIAL DE CORDOBA >> LA TASA POLICIAL DE CORDOBA SERA $90 + IVA,</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+	</banner>
+	<banner>
+	<message>TASA POLICIAL DE CORDOBA >> los precios finales de los abonos no cambian.</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+	</banner>
+
+		
+</public>

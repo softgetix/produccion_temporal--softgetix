@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:white;}
+ul.Barra_Menu{
+width:100%;
+background-color:#333;
+color:#FFF;
+height:45px;	
+}
+li.helperbutton{
+float:left;
+padding:15px;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:white;
+font-weight:bold;
+text-decoration:none;
+}
+li.helperbutton:hover{
+float:left;
+padding-left:15px;
+padding-right:15px;
+padding-bottom:19px;
+background-color:#F60;
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+cursor:pointer;
+
+}
+a.nodeco{
+	text-decoration:none;
+	color:#FFF;
+	
+}
+
+div.capaframe{
+
+width:100%;
+text-align:center;
+overflow:auto;
+background-color:white;	
+}
+
+div.titulo{
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#333;
+display:inline;
+margin-left:-550px !important;
+}

@@ -1,0 +1,6 @@
+
+.abmEstadisticas fieldset{border:0px; clear:both; width:300px; margin-top:4px; margin-bottom:4px; border:1px solid #CCC; background:#FFF;}
+.abmEstadisticas fieldset div{background:#E5E5E5; width:240px; text-align:center; float:left; padding:10px 0 10px 0;}
+.abmEstadisticas fieldset div span{display:block; line-height:20px;}
+.abmEstadisticas fieldset div strong{font-weight:bolder; line-height:20px;}
+.abmEstadisticas fieldset a{position:relative; top:24px; left:9px;}

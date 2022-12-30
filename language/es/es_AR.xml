@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<message>
+		<ok>
+			<solicitud_enviada>Tu solicitud ha sido procesada con éxito!</solicitud_enviada>
+			<email_enviado>El e-mail se ha enviado con éxito!</email_enviado>	
+	  		<msj_alta>Registro dado de alta con éxito</msj_alta>
+			<msj_modificar>Registro modificado con éxito</msj_modificar>
+			<msj_baja>Registro eliminado con éxito</msj_baja>
+			<msj_baja_viaje>El viaje se ha eliminado con éxito</msj_baja_viaje>
+			<guardar_datos>Los datos fueron guardados con éxito!</guardar_datos>
+			<upload_archivo>El archivo se ha subido con éxito!</upload_archivo>
+			<procesar_datos>Los datos fueron procesados con éxito!</procesar_datos>
+			<pruebas>La prueba se ha realizado correctamente</pruebas>
+		</ok>
+	  	<error>
+			<solicitud_enviada>Se ha producido un error, y tu solicitud no pudo ser procesada</solicitud_enviada>	
+			<email_enviado>El mail no se ha podido enviar. Verifique que la casilla de correo sea correcta</email_enviado>
+			<msj_alta>El registro ya ha sido cargado previamente</msj_alta>
+			<msj_modificar>El registro que quiere modificar no existe</msj_modificar>
+			<msj_baja>No se pudo eliminar el registro</msj_baja>
+			<msj_baja_viaje>El viaje no ha sido eliminado.</msj_baja_viaje>
+			<guardar_datos>Ha ocurrido un error y los datos no han sido guardados.</guardar_datos>
+			<upload_archivo>Se produjo un error al subir el archivo.</upload_archivo>
+			<procesar_datos>Ha ocurrido un error y los datos no han sido procesados!</procesar_datos>
+			<pruebas>La prueba ha fallado</pruebas>
+	  	</error>
+		
+		<interfaz_generica>
+			<msj_completar>Debe completar el campo ([NOMBRE_CAMPO])</msj_completar>
+			<msg_datos_guadados>Datos guardados correctamente.</msg_datos_guadados>
+			<msj_mail_incorrecto>Mail incorrecto ([NOMBRE_CAMPO])</msj_mail_incorrecto>
+			<msj_cant_min_caracteres>El campo [NOMBRE_CAMPO] no puede contener menos de [VALOR] caracteres</msj_cant_min_caracteres>
+			<msj_cant_max_caracteres>El campo [NOMBRE_CAMPO] no puede contener más de [VALOR] caracteres</msj_cant_max_caracteres>
+			<msj_campos_invalidos>El campo [NOMBRE_CAMPO] contiene caracteres inválidos</msj_campos_invalidos>
+			<msj_valor_numerico>El campo [NOMBRE_CAMPO] debe ser numérico</msj_valor_numerico>
+			<msj_valor_min>El valor del campo [NOMBRE_CAMPO] no puede ser menor a [VALOR]</msj_valor_min>
+			<msj_valor_max>El valor del campo [NOMBRE_CAMPO] no puede ser mayor a [VALOR]</msj_valor_max>
+			<msj_select_option>Debe elegir una opción para el campo ([NOMBRE_CAMPO])</msj_select_option>
+			<msj_campo_vacio>El campo [NOMBRE_CAMPO] no puede estar vacío</msj_campo_vacio>
+			<msj_formato_fecha>Debe ingresar una fecha en el formato [VALOR] ([NOMBRE_CAMPO])</msj_formato_fecha>
+			<msj_fecha_invalida>El campo [NOMBRE_CAMPO] no contiene una fecha válida</msj_fecha_invalida>
+			<msj_limite_registros>No encontró lo que buscaba? Utilice el buscador ubicado en la barra superior o haga [a href="[LINK]"]click aquí[/a] para ver todos los resultados</msj_limite_registros>
+			<msj_modificar_existe>El registro que intenta modificar ya existe</msj_modificar_existe>
+			<msj_extension_img>Extensión de imágenes válidas:</msj_extension_img>
+			<msj_extension_xls>Sólo se admiten archivos *.xls o *.xlsx.</msj_extension_xls>
+			<msj_extension_txt>Sólo se admiten archivos *.txt.</msj_extension_txt>
+			<msj_permiso_update_archivo>Usted no tiene permiso, para realizar la subida del archivo.</msj_permiso_update_archivo>
+			<msj_tamanio_max_archivo>Se excedió el máximo tamaño de archivo permitido</msj_tamanio_max_archivo>
+			<msj_seleccione_archivo>Selecione los archivos a importar.</msj_seleccione_archivo>
+			<msj_cant_caracteres>El campo [NOMBRE_CAMPO] debe tener [VALOR] caracteres.</msj_cant_caracteres>
+			<msj_valor_positivo>El campo [NOMBRE_CAMPO] debe ser positivo.</msj_valor_positivo>
+			<msj_formato_image>La imagen del campo [NOMBRE_CAMPO] debe ser jpg, jpeg o png.</msj_formato_image>
+		</interfaz_generica>
+		
+		
+		<msj_cargando>Aguarde... Los datos están siendo procesados</msj_cargando>
+		<info_error>Los datos no han sido guardados!, Se detectaron los siquientes errores:</info_error>
+		<email_vacio>Ingrese su dirección de email</email_vacio>
+		<email_incorrecto>La dirección de email ingresada es incorrecta</email_incorrecto>
+		<password_longitud>La contraseña debe contener al menos 10 caracteres, e incluir números y letras. Escriba su nueva contraseña, el validador le indicará cuando sea segura.</password_longitud>
+                <password_vacio>Ingrese su contraseña</password_vacio>
+		<password_distintos>Las contraseñas deben ser iguales</password_distintos>
+		<password_actual_error>La contraseña actual ingresada no es correcta.</password_actual_error>
+		<login_error>Usuario y/o Contraseña incorrecta</login_error>
+		<sin_resultados>No se han encontrado resultados para la búsqueda</sin_resultados>
+		<recupero_bloqueo_mayuscula>El bloqueo de mayúsculas está activado</recupero_bloqueo_mayuscula>
+		<recupero_resp>Se envió a tu casilla de correo los datos de acceso para cambiar tu contraseña. Recuerda revisar tu casilla de Spam en caso que no hayas recibido los datos de activación</recupero_resp>
+		<recupero_supero_limite>Ha superado el límite diario de reseteos</recupero_supero_limite>
+		<procesando_datos>Aguarde... Los datos están siendo procesados.</procesando_datos>
+		<tiempo_carga>Lo sentimos... Ha superado el tiempo de carga</tiempo_carga>
+		<ref_pointer_limit>* La ubicación no debe superar los 700mts respecto al punto recomendado</ref_pointer_limit>
+		<msj_utilice_buscador>Utilice el buscador para obtener resultados</msj_utilice_buscador>
+		<msj_error_carga_cliente>Ya existe un usuario cliente para la empresa seleccionada</msj_error_carga_cliente>
+		<msj_ip_autorizada>El campo (IP Autorizada) no tiene un formato válido</msj_ip_autorizada>
+		<msj_baja_usuarios_moviles>No se ha podido eliminar el usuario, porque tiene móviles asignados.</msj_baja_usuarios_moviles>
+		<msj_baja_usuarios_alertas>No se ha podido eliminar el usuario, porque tiene alertas asignadas.</msj_baja_usuarios_alertas>
+		<msj_baja_referencia_viajes>No se ha podido eliminar las siguientes lugares, porque tienen uno o mas viajes asignados.</msj_baja_referencia_viajes>
+		<msj_baja_referencia_alertas>No se ha podido eliminar las siguientes lugares, porque tienen uno o mas alertas asignadas</msj_baja_referencia_alertas>
+		<msj_baja_equipos_moviles>No se ha podido eliminar el equipo, porque tiene móviles asignados.</msj_baja_equipos_moviles>
+		<msj_identificador_no_disponible>El identificador ya existe.</msj_identificador_no_disponible>
+		<msj_baja_error_identificador>No se permite eliminar el identificador</msj_baja_error_identificador>
+		<msj_baja_clientes_moviles>El cliente que desea eliminar tiene moviles activos.</msj_baja_clientes_moviles>
+		<msj_asociar_movil>No se seleccionó el móvil a asociar</msj_asociar_movil>
+		<msj_elegir_moviles>Falta elegir vehiculos</msj_elegir_moviles>
+		<msj_elegir_usuarios>Falta elegir usuarios</msj_elegir_usuarios>
+		<msj_expiro_session>Su sesión ha expirado.</msj_expiro_session>
+		<msj_viajes_filtro_aplicado>Filtro aplicado: [FECHA] En caso de exitir destinos asociados con fecha por fuera de las anteriores, el informe y las estadísticas pueden NO reflejar los resultados con exactitud.</msj_viajes_filtro_aplicado>
+		<msj_baja_viaje>Esta seguro que desea eliminar el viaje?</msj_baja_viaje>
+		<msj_viaje_asignado>El vehículo asignado a este viaje no está vinculado a su cuenta</msj_viaje_asignado>
+		<msj_viaje_creado>Creado el [FECHA_CREACION] a las [HORA_CREACION]</msj_viaje_creado>
+		<msj_motivo>Debe elegir un motivo para continuar</msj_motivo>
+		<msj_motivo_update>Especifique el motivo de la modificación</msj_motivo_update>
+		<msj_viaje_reset_ingreso>Esta seguro de querer resetear la Fecha de Ingreso?</msj_viaje_reset_ingreso>
+		<msj_viaje_reset_egreso>Esta seguro de querer resetear la Fecha de Egreso?</msj_viaje_reset_egreso>
+		<msj_viaje_cargando>Aguarde... Cargando viajes</msj_viaje_cargando>
+		<msj_viaje_fecha_anterior>La fecha seleccionada es anterior a la fecha actual</msj_viaje_fecha_anterior>
+		<msj_viaje_fecha_programada>La fecha seleccionada es anterior al egreso programado del punto anterior</msj_viaje_fecha_programada>
+		<msj_viajes_not_save>ATENCION:Los cambios no han sido guardados.\nDesea continuar?</msj_viajes_not_save>
+		<msj_viajes_movil_asignado>ATENCION: El móvil seleccionado tiene asignado otro viaje dentro del período seleccionado</msj_viajes_movil_asignado>
+		<msj_viajes_existe_codigo>Usted ya cuenta con un viaje que posee el mismo código de ruta</msj_viajes_existe_codigo>
+		<msj_viajes_ingresar_destinos>No ingreso ningun Destino</msj_viajes_ingresar_destinos>
+		<msj_select_baja>Debe seleccionar un registro para eliminar</msj_select_baja>
+		<msj_limite_baja>No puede eliminar mas de 15 registros simultaneos</msj_limite_baja>
+		<msj_confirmar_baja>Esta seguro que desea eliminar el/los registros seleccionados?</msj_confirmar_baja>
+		<msj_alerta_baja_equipo>Recuerde que si borra un equipo primario, el mismo dejará de reportar</msj_alerta_baja_equipo>
+		<msj_un_update>Solo se puede modificar un registro por vez</msj_un_update>
+		<msj_select_update>Debe seleccionar un registro para modificar</msj_select_update>
+		
+		<msj_rastreo_posicion_invalida>móviles con posiciones inválidas</msj_rastreo_posicion_invalida>
+		<msj_rastreo_alertas>Indique el origen del evento, por favor</msj_rastreo_alertas>
+		<msj_export_informes_avanzado>Exportar [SOLAPA] desde [FECHA_INI] al [FECHA_FIN]</msj_export_informes_avanzado>
+		<msj_export_informes_simple>Exportar [SOLAPA] para el día [FECHA]</msj_export_informes_simple>
+		<msj_destinatarios_informes>Debe seleccionar uno o más destinatarios.</msj_destinatarios_informes>
+	</message>
+	
+	<system>
+		<abm_usuarios>Administración de Usuarios</abm_usuarios>
+		<abm_referencias>Administración de Lugares</abm_referencias>
+		<abm_referencias_trafico>Administración de Referencias de Tráfico</abm_referencias_trafico>
+		<abm_equipos>Administración de Equipos</abm_equipos>
+		<abm_marca_equipos>Administración de Marcas de Equipos</abm_marca_equipos>
+		<abm_modelo_equipos>Administración de Modelos de Equipos</abm_modelo_equipos>
+		<abm_clientes>Administración de Flotas</abm_clientes>
+		<abm_conductores>Administración de Choferes</abm_conductores>
+		<abm_comandos>Administración de Comandos</abm_comandos>
+		<abm_comandos_grupos>Administración de Grupos de Comandos</abm_comandos_grupos>
+		<abm_moviles>Administración de Móviles</abm_moviles>
+		<abm_asignacion_moviles_usuarios>Asignación masiva de Móviles a Usuarios</abm_asignacion_moviles_usuarios>
+		<abm_reglas_alertas>Administración de Reglas y Alertas</abm_reglas_alertas>
+		<abm_alertas>Administración de Alertas</abm_alertas>
+		<abm_grupoMoviles>Administración de Grupos de Móviles</abm_grupoMoviles>
+		<abm_referencias_ajustar>Corrector Inteligente de Waypoints</abm_referencias_ajustar>
+		
+		<usuario>Usuario</usuario>
+		<usuario_mc>Usuario DB - Módulo Comunicación</usuario_mc>
+		<nombre_apellido>Nombre y Apellido</nombre_apellido>
+		<nombre>Nombre</nombre>
+		<apellido>Apellido</apellido>
+		<cedula>DNI</cedula>
+		<email>E-Mail</email>
+		<email_alerta>E-Mail Alertas</email_alerta>
+		<telefono>Teléfono</telefono>
+		<zona>Zona</zona>
+		<region>Región</region>
+		<pasaporte>Pasaporte</pasaporte>
+		<Ibutton>Teléfono Secundario</Ibutton>
+		<fax>Fax</fax>
+		<direccion>Dirección</direccion>
+		<pais>Pais</pais>
+		<provincia>Provincia</provincia>
+		<localidad>Ciudad/Barrio</localidad>
+		<perfil>Perfil</perfil>
+		<acceso_webservices>Acceso a WebServices</acceso_webservices>
+		<fecha_expiracion>Fecha expiración (yyyy/mm/dd)</fecha_expiracion>
+		<ingresar_como>Ingresar Como</ingresar_como>
+		<usuario_activo>Usuario Activo</usuario_activo>
+		<usuario_bloqueado>Usuario Bloqueado</usuario_bloqueado>
+		<expiro_cuenta>Expiró Cuenta</expiro_cuenta>
+		<comentarios>Comentarios</comentarios>
+		<password>Contraseña</password>
+		<repetir_password>Repetir Contraseña</repetir_password>
+		<cambiar_password>Cambiar Contraseña</cambiar_password>
+		<olvido_password>¿Olvidó su contraseña?</olvido_password>
+		<ip_autorizada>IP Autorizada</ip_autorizada>
+		<hardkey>Nº HardKey</hardkey>
+		<acceso_version_mobile>Acceso versión mobile</acceso_version_mobile>
+		<descripcion>Descripción</descripcion>
+		<bienvenido>Bienvenido</bienvenido>
+		<filtro>Filtro</filtro>
+		<filtro_buscador>Buscar</filtro_buscador>
+		<seleccione>Seleccione</seleccione>
+		<todos>Todos</todos>
+		<otros>Otros</otros>
+		<centrar>Centrar</centrar>
+		<si>Si</si>
+		<no>No</no>
+		<y>y</y>
+		<o>o</o>
+		<otro>Otro</otro>
+		<cliente>Flota</cliente>
+		<empresa>Empresa</empresa>
+		<tipo_empresa>Tipo de Empresa</tipo_empresa>
+		<tipo_cliente>Tipo de Flota</tipo_cliente>
+		<razon_social>Identificador</razon_social>
+		<clave_tributaria>CUIT</clave_tributaria>
+		<habilitado>Habilitado</habilitado>
+		
+		<url_autorizada>URL Autorizada</url_autorizada>
+		<ubicacion>Ubicación</ubicacion>
+		<moviles>Móviles</moviles>
+		<movil>Móvil</movil>
+		<asignar_moviles>Asignar Móviles</asignar_moviles>
+		<tipo_movil>Tipo de Móvil</tipo_movil>
+		<identificador>Identificador</identificador>
+		<matricula>Matricula</matricula>
+		<unidad>Equipo</unidad>
+		<marca>Marca</marca>
+		<simcard>SimCard</simcard>
+		<modelo>Modelo</modelo>
+		<carrier>Carrier</carrier>
+		<entradas>Entradas</entradas>
+		<ruta_log>Ruta del Log</ruta_log>
+		<puerto>Puerto</puerto>
+		<ip>IP</ip>
+		<motor>Motor</motor>
+		<bit_motor>Bit Motor</bit_motor>
+		<motor_encendido>Motor Encendido</motor_encendido>
+		<motor_apagado>Motor Apagado</motor_apagado>
+		<lista_moviles>Lista de Móviles</lista_moviles>
+		<moviles_asignados>Móviles Asignados</moviles_asignados>
+		<moviles_disponibles>Móviles Disponibles</moviles_disponibles>
+		<anio>Año</anio>
+		<color>Color</color>
+		<cliente_facturar>Cliente a Facturar</cliente_facturar>
+		<conductor>Conductor</conductor>
+		<fecha_activacion>Fecha de Activación</fecha_activacion>
+		<equipo>Equipo</equipo>
+		<equipo_instalado>Equipo Instalado</equipo_instalado>
+		<imagen>Imagen</imagen>
+		<grupo>Grupo</grupo>
+		<referencia>Lugar</referencia>
+		<tipo_referencia>Tipo de Waypoint</tipo_referencia>
+		<num_boca>ID waypoint 2</num_boca>
+		<datos_referencia>Datos del waypoint</datos_referencia>
+		<categoria>Categoría</categoria>
+		<tamanio>Tamaño</tamanio>
+		<chica>Chica</chica>
+		<mediana>Mediana</mediana>
+		<grande>Grande</grande>
+		<vel_prom_arribo>Velocidad Promedio de Arribo (Km/Hs)</vel_prom_arribo>
+		<tipo_camino>Tipo Camino</tipo_camino>
+		<ejemplo_direccion>Ej: Avenida Alvarez Thomas 46 Capital Federal Argentina</ejemplo_direccion>
+		<vel_min_congestionado>Velocidad por debajo de la cual se considera tráfico congestionado (km)</vel_min_congestionado>
+		<vel_max_congestionado>Velocidad por sobre la cual se considera tráfico fluido (km)</vel_max_congestionado>
+		<tipo_comando>Tipo de comando</tipo_comando>
+		<comando>Comando</comando>
+		<instrucciones>Instrucciones</instrucciones>
+		<modelo_de_equipo>Modelo de Equipo</modelo_de_equipo>
+		<favorito>Favorito</favorito>
+		<respuesta_correcta>Respuesta correcta</respuesta_correcta>
+		<espera_evento>Espera evento</espera_evento>
+		<envia_comando_espera>Envia comando y espera respuesta</envia_comando_espera>
+		<comandos_disponibles>Comandos Disponibles</comandos_disponibles>
+		<comandos_asignados>Comandos Asignados</comandos_asignados>
+		<usuarios>Usuarios</usuarios>
+		<usuarios_disponibles>Usuarios disponibles</usuarios_disponibles>
+		<usuarios_asignados>Usuarios Asignados</usuarios_asignados>
+		<crear_grupo>Crear nuevo grupo?</crear_grupo>
+		<sin_grupo>Sin Grupo</sin_grupo>
+		<usuario_creador>Usuario creador</usuario_creador>
+		<alertas_creadas_1>La alerta fue creada por otro usuario</alertas_creadas_1>
+		<seleccionar_items>Debe seleccionar uno o más items para</seleccionar_items>
+		<evento>Evento</evento>
+		
+		<alertas_txt1>a</alertas_txt1>
+		<alertas_txt2>Debe seleccionar al menos un móvil para la alerta</alertas_txt2>
+		<alertas_txt3>Debe seleccionar al menos una geocerca o evento para la alerta</alertas_txt3>
+		<alertas_txt4>Esta alerta funciona en el</alertas_txt4>
+		<alertas_txt5>del móvil</alertas_txt5>
+		<alertas_txt6>de los moviles</alertas_txt6>	
+		<alertas_txt7>o se detecte</alertas_txt7>
+		<alertas_txt8>Esta alerta funciona cuando se detecte</alertas_txt8>	
+		<!-- --> 
+		<alertas_txt38>Aplicar esta regla después de la detección del</alertas_txt38>
+		<alertas_txt39>del móvil</alertas_txt39>
+		<alertas_txt40>a</alertas_txt40>
+		<alertas_txt41>y notificar por e-mail a</alertas_txt41> 
+		<alertas_txt42>Aplicar esta regla después de la recepción de</alertas_txt42>
+		<alertas_txt43>y notificar por mail a</alertas_txt43>
+		<alertas_txt44>estando</alertas_txt44>
+		<alertas_txt45>de</alertas_txt45>
+
+		<alertas_step1>Tipo de alerta</alertas_step1>
+		<alertas_step2>Configuración de la alerta</alertas_step2>
+		<alertas_step3>Datos de la alerta</alertas_step3>
+		<alertas_type1>Generar un alerta frente al ingreso y / o egreso en una zona</alertas_type1>
+		<alertas_type2>Generar un alerta frente a la recepción de un evento</alertas_type2>
+		<alertas_type3>Generar un alerta frente a la recepción de un evento dentro o fuera de una zona</alertas_type3>
+
+		<alertas_txt9>Aplicar esta regla después de la recepción de reporte con </alertas_txt9>
+		<alertas_txt10>velocidad superior / inferior</alertas_txt10>
+		<alertas_txt11>estando dentro / fuera de</alertas_txt11>
+		<alertas_txt12>ej: alerta diaria</alertas_txt12>
+		<alertas_txt13>Esta alerta opera</alertas_txt13>
+		<alertas_txt14>Todos los días</alertas_txt14>
+		<alertas_txt15>Personalizar</alertas_txt15>
+		<alertas_txt16>Lunes a Viernes</alertas_txt16>
+		<alertas_txt17>Desde la(s)</alertas_txt17>
+		<alertas_txt18>Hasta la(s)</alertas_txt18>
+		<alertas_txt19>Sábado y Domingo</alertas_txt19>
+		<alertas_txt20>Requiere Confirmación</alertas_txt20>
+		<alertas_txt21>Aplica velocidad máxima en geozonas seleccionadas (km/h)</alertas_txt21>
+		<alertas_txt22>Aplica velocidad mínima en geozonas seleccionadas (km/h)</alertas_txt22>
+		<alertas_txt23>Considerar estos eventos solo si se producen: Dentro de geozona</alertas_txt23>
+		<alertas_txt24>Fuera de geozona</alertas_txt24>
+		<alertas_txt25>Ingrese un Email</alertas_txt25>
+		<alertas_txt26>Para ingresar más de un mail, separar usando coma o punto y coma</alertas_txt26>
+		<alertas_txt27>Presione [i]Enviar[/i] para realizar un testeo del envio de notificaciones.[br/]La misma sera enviada a los usuarios asignados y a las direcciones provistas en [i]Otros[/i].</alertas_txt27>
+		<alertas_txt28>nada seleccionado</alertas_txt28>
+		<alertas_txt29>Dentro o fuera de geocerca</alertas_txt29>
+		<alertas_txt30>Notificar a</alertas_txt30>
+		<alertas_txt31>Velocidad mínima</alertas_txt31>
+		<alertas_txt32>Velocidad máxima</alertas_txt32>
+		<alertas_txt33>Alerta confirmación</alertas_txt33>
+		<alertas_txt34>Emails adicionales</alertas_txt34>
+		<alertas_txt35>Debe seleccionar al menos un evento para la alerta</alertas_txt35>
+		<alertas_txt36>Debe seleccionar al menos una geocerca para la alerta</alertas_txt36>
+		<alertas_txt37>Debe seleccionar al menos un móvil para la alerta</alertas_txt37>
+		<alertas_txt_msg1>La alerta a generar considerara los eventos elegidos que se encuentren dentro de las geocercas seleccionadas</alertas_txt_msg1>
+		<alertas_txt_msg2>La alerta a generar considerara los eventos elegidos que se encuentren fuera de las geocercas seleccionadas</alertas_txt_msg2>
+		<alertas_txt_msg3>para los móviles y usuarios seleccionados</alertas_txt_msg3>
+		<alertas_txt_msg4>aplicando a las mismas las velocidades máximas y mínimas correspondientes</alertas_txt_msg4>
+		<alertas_txt_msg5>aplicando a las mismas la velocidad máxima correspondiente</alertas_txt_msg5>
+		<alertas_txt_msg6>aplicando a las mismas la velocidad mínima correspondiente</alertas_txt_msg6>
+		<alertas_txt_msg7>La alerta a generar considerara solo los ingresos y egresos de las geocercas seleccionadas</alertas_txt_msg7>
+		<alertas_txt_msg8>La alerta a generar considerara  solo los eventos independientemente de su ubicación geografica</alertas_txt_msg8>
+		<alertas_txt_msg9>Debe ingresar una velocidad máxima mayor a 0</alertas_txt_msg9>
+		<alertas_txt_msg10>Debe ingresar una velocidad mínima mayor a 0</alertas_txt_msg10>
+		<alertas_txt_msg11>La cant. de elementos seleccionados supera la cant. máxima permitida</alertas_txt_msg11>
+		<alertas_txt_msg12>Advertencia: Los vehículos seleccionados poseen tecnologías diferentes.\n Verifique que los eventos seleccionados sean soportados por todas las seleccionadas.</alertas_txt_msg12>
+		<!-- -->
+		<dentro>dentro</dentro>
+		<afuera>afuera</afuera>
+
+		<estado>Estado</estado>
+		<activada>Activada</activada>
+		<desactivada>Desactivada</desactivada>
+		<eventos_disponible>Eventos disponibles</eventos_disponible>
+		<eventos_seleccionados>Eventos seleccionados</eventos_seleccionados>
+		<grupos>Grupos</grupos>
+		<moviles_seleccionados>Móviles seleccionados</moviles_seleccionados>
+		<usuarios_seleccionados>Usuarios elegidos</usuarios_seleccionados>
+		<probar>Probar</probar>
+		<resumen_alerta>Resumen de la Alerta</resumen_alerta>
+		<geocercas>Lugares</geocercas>
+		<grupo_geocercas>Grupo de Lugares</grupo_geocercas>
+		<geocercas_disponibles>Lugares disponibles</geocercas_disponibles>
+		<geocercas_seleccionados>Lugares seleccionadas</geocercas_seleccionados>
+		<nadie>nadie</nadie>
+		<cant>Cant</cant>
+		<max>Máx.</max>
+		<viaje_finalizado>Viaje Finalizado</viaje_finalizado>
+		<pendiente_inico>Pendiente de Inicio</pendiente_inico>
+		<seleccione_dador>Seleccione al Dador</seleccione_dador>
+		<seleccione_transportista>Seleccione un Transportista</seleccione_transportista>
+		<seleccione_movil>Seleccione una Patente</seleccione_movil>
+		<seleccione_conductor>Seleccione un Chofer</seleccione_conductor>
+		<seleccione_grupo>Seleccione un grupo</seleccione_grupo>
+		<seleccione_evento>Seleccione un Evento</seleccione_evento>
+		<enter_buscar>Presione ENTER para iniciar la búsqueda</enter_buscar>
+		<atrasado>Demorado</atrasado>
+		<en_tiempo>En Tiempo</en_tiempo>
+		<estado_ingresos>Estado Ingresos</estado_ingresos>
+		<estado_egresos>Estado Egresos</estado_egresos>
+		<ingreso_estimado>Ingreso Estimado</ingreso_estimado>
+		<facturado>Facturado</facturado>
+		<busqueda>Búsqueda</busqueda>
+		<simple>Simple</simple>
+		<avanzada>Avanzada</avanzada>
+		<informe>Informe</informe>
+		<estadistica>Estadísticas</estadistica>
+		<observaciones>ULTIMA GESTION</observaciones>
+		<referencia_calendario>El calendario aplica sobre la fecha de Ingreso Programado</referencia_calendario>
+		<archivo>Archivo</archivo>
+		<archivos_subidos>Archivos previamente subidos</archivos_subidos>
+		<archivos_no_subidos>No se han cargado archivos todavía</archivos_no_subidos>
+		<viaje>Viaje</viaje>
+		<viajes>Viajes</viajes>
+		<cant_viajes>Cant. de Viajes</cant_viajes>
+		<estadia_hora>Estadias (hs)</estadia_hora>
+		<codigo_viaje>Código de viaje</codigo_viaje>
+		<transportista>Transportadora</transportista>
+		<dador>Dador</dador>
+		<destino>Destino</destino>
+		<destinos>Lugares</destinos>
+		<procedencia>Procedencia</procedencia>
+		<estadia>Estadía</estadia>
+		<ingreso>Ingreso</ingreso>
+		<ingresos>Ingresos</ingresos>
+		<ingreso_real>Ingreso Real</ingreso_real>
+		<ingreso_programado>Fecha</ingreso_programado>
+		<ingreso_prog_origen>Ingreso Prog. Origen</ingreso_prog_origen>
+		<ingreso_real_origen>Ingreso Real Origen</ingreso_real_origen>
+		<ingreso_prog_destino>Ingreso Prog. Destino</ingreso_prog_destino>
+		<ingreso_real_destino>Ingreso Real Destino</ingreso_real_destino>
+		<egreso>Egreso</egreso>
+		<egresos>Egresos</egresos>
+		<egreso_real>Egreso Real</egreso_real>
+		<egreso_programado>Egreso Programado</egreso_programado>
+		<egreso_prog_origen>Egreso Prog. Origen</egreso_prog_origen>
+		<egreso_real_origen>Egreso Real Origen</egreso_real_origen>
+		<egreso_prog_destino>Egreso Prog. Destino</egreso_prog_destino>
+		<egreso_real_destino>Egreso Real Destino</egreso_real_destino>
+		<pendiente_ingreso>Pendiente de Ingreso</pendiente_ingreso>
+		<pendiente_egreso>Pendiente de Egreso</pendiente_egreso>
+		<status_origen>Status Origen</status_origen>
+		<status_destino>Status Destino</status_destino>
+		<estadia_origen>Estadía Origen</estadia_origen>
+		<estadia_destino>Estadía Destino</estadia_destino>
+		<tiempo_gestion>Tiempo de Gestión</tiempo_gestion>
+		<ultimo_reporte_recibido>Último reporte de GPS recibido</ultimo_reporte_recibido>
+		<ver>Ver</ver>
+		<asignar_conductor_movil>Asignar Conductor/Móvil</asignar_conductor_movil>
+		<tiempo>Tiempo</tiempo>
+		<valores>Valores</valores>
+		<nro_orden>CODIGO</nro_orden>
+		<arribo>Arribo</arribo>
+		<partio>Partio</partio>
+		<arribos>Arribos</arribos>
+		<partidas>Partidas</partidas>
+		<arribo_a>Arribo A</arribo_a>
+		<parte_de>Parte de</parte_de>
+		<arribo_aprox>Arribo aprox</arribo_aprox>
+	
+		
+		<arribo_atrasado>Arribó atrasado</arribo_atrasado>
+		<arribo_en_tiempo>Arribó en tiempo</arribo_en_tiempo>
+		<partio_atrasado>Partió atrasado</partio_atrasado>
+		<partio_en_tiempo>Partió en tiempo</partio_en_tiempo>
+		<partira_atrasado>Partirá atrasado</partira_atrasado>
+		<ingreso_realizado>Ingreso Realizado</ingreso_realizado>
+		<ingreso_pendiente>Ingreso Pendiente</ingreso_pendiente>
+		<egreso_realizado>Egreso Realizado</egreso_realizado>
+		<egreso_pendiente>Egreso Pendiente</egreso_pendiente>
+		
+		<origen>Origen</origen>
+		<movil_recomendado>Móvil recomendado</movil_recomendado>
+		<movil_disponible>Móvil disponible</movil_disponible>
+		<otros_moviles>Otros móviles</otros_moviles>
+		<tipo_viaje>Tipo de viaje</tipo_viaje>
+		<campos_opcionales>Campos Opcionales</campos_opcionales>
+		<ver_campos_opcionales>Ver Campos Opcionales</ver_campos_opcionales>
+		<ocultar_campos_opcionales>Ocultar Campos Opcionales</ocultar_campos_opcionales>
+		<asociado_a>asociado a</asociado_a>
+		<referencia_ruteo>Waypoints y Ruteo</referencia_ruteo>
+		<historial>Historial</historial>
+		<pod>Vales electrónicos</pod>
+		<ver_video>Ver video tutorial</ver_video>
+		<ruteo_automatico>Ruteo automático</ruteo_automatico>
+		<tiempo_programado>Tiempo Programado</tiempo_programado>
+		<tiempo_real>Tiempo Real</tiempo_real>
+		<distancia_acumulada>Distancia acumulada</distancia_acumulada>
+		<origen_viaje>Origen del viaje</origen_viaje>
+		<fecha>Fecha</fecha>
+		<supero_tiempo_programado>Supero tiempo programado</supero_tiempo_programado>
+		<orden>Orden</orden>
+		<motivo>Motivo</motivo>
+		<edicion_atajo>Cambio desde el atajo: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_atajo>
+		
+		<alta_viaje>Alta Viaje</alta_viaje>
+		<edicion_viaje>Edicion del Viaje: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_viaje>
+		<baja_viaje>Baja del Viaje</baja_viaje>
+		
+		<alta_referencia>Alta Waypoint</alta_referencia>
+		<edicion_referencia>Edicion Lugares: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_referencia>
+		<baja_referencia>Baja Lugares/s</baja_referencia>
+		
+		<alta_delivery>Alta Delivery</alta_delivery>
+		<edicion_delivery>Edicion Delivery: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_delivery>
+		
+		<edicion_vehiculo>Edición del Vehículo: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_vehiculo>
+		<baja_vehiculo>Baja del Vehículo</baja_vehiculo>
+		
+		<alta_usuario>Nuevo Usuario:</alta_usuario>
+		<edicion_usuario>Edición de Usuario: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_usuario>
+		<baja_usuario>Baja Usuario</baja_usuario>
+		<agregar_moviles>Se han sumado los siguiente moviles a la cuenta:</agregar_moviles>
+		<quitar_moviles>Se han retirado los siguiente moviles de la cuenta:</quitar_moviles>
+		<inicio_session_como>Inicio de Sesión como:</inicio_session_como>
+		
+		<alta_alerta>Nueva Alerta: [NAME_ALERT] opera para [TRUCK_ALERT] ante los eventos de [EVENT_ALERT] para los lugares [REFERENCIA_ALERT] en los días [DAYS_ALERT], la misma se notifica a [USER_SEND]</alta_alerta>
+		<edicion_alerta>Edición de Alerta: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_alerta>
+		<baja_alerta>Baja Alerta</baja_alerta>
+		
+		<sin_asignar>Sin Asignar</sin_asignar>
+		<fecha_inicio>Fecha Inicio</fecha_inicio>
+		<fecha_fin>Fecha Fin</fecha_fin>
+		
+		<ultima_conexion>Últ. Conexión</ultima_conexion>
+		<dia_hora_gps>Día/Hora GPS</dia_hora_gps>
+		<coordenadas>Coordenadas</coordenadas>
+		<descargar_ubicacion>Descargar Ubicación</descargar_ubicacion>
+		<dato_gps>Dato GPS</dato_gps>
+		<senial_gps>Señal GPS</senial_gps>
+		<pendiente_inicio_en>Pendiente de Inicio en</pendiente_inicio_en>
+		<en>En</en>
+		<en_transito_hacia>En Tránsito hacia</en_transito_hacia>
+		<hoy>Hoy</hoy>
+		<ayer>Ayer</ayer>
+		<ultima_semana>Última Semana</ultima_semana>
+		<ultimo_mes>Último Mes</ultimo_mes>
+		<prox_dias>Próximos Días</prox_dias>
+		<modificar_grupo>Modificar Grupo</modificar_grupo>
+		<asignar_grupo>Asignar Grupo</asignar_grupo>
+		<bateria>Batería</bateria>
+		<bateria_baja>Batería Baja</bateria_baja>
+		<sin_cobertura>Sin Cobertura</sin_cobertura>
+		<cobertura_mala>Cobertura Mala</cobertura_mala>
+		<cobertura_regular>Cobertura Regular</cobertura_regular>
+		<cobertura_buena>Cobertura Buena</cobertura_buena>
+		<cobertura_muy_buena>Cobertura Muy Buena</cobertura_muy_buena>
+		<wifi_apagado>Wifi Apagado</wifi_apagado>
+		<gps_apagado>GPS Apagado</gps_apagado>
+		<gps_encendido>GPS Encendido</gps_encendido>
+		<sin_nombre>Sin Nombre</sin_nombre>
+		<datos_gps>Datos GPS</datos_gps>
+		<velocidad>Velocidad</velocidad>
+		<vel_max>Vel. Máx</vel_max>
+		<sentido>Sentido</sentido>
+		<norte>Norte</norte>
+		<noreste>Noreste</noreste>
+		<este>Este</este>
+		<sudeste>Sudeste</sudeste>
+		<sur>Sur</sur>
+		<sudoeste>Sudoeste</sudoeste>
+		<oeste>Oeste</oeste>
+		<noroeste>Noroeste</noroeste>
+		<agregar_punto>Si</agregar_punto>
+		<no_mostrar>No, no volver a mostrar</no_mostrar>
+		<sugerencia_inteligencia>En base a tus movimientos te sugerimos agregar este lugar como punto de interés</sugerencia_inteligencia>
+		<ocultar_referencias>Ocultar Lugares</ocultar_referencias>
+		<mostrar_referencias>Mostrar Lugares</mostrar_referencias>
+		<comandos_favoritos>Comandos favoritos</comandos_favoritos>
+		<rastreo_buscador>Móvil, Geozona o Dirección</rastreo_buscador>
+		<mapa>Mapa</mapa>
+		<detalle>Detalle</detalle>
+		<fecha_partida>Fecha Partida</fecha_partida>
+		<fecha_llegada>Fecha LLegada</fecha_llegada>
+		<lugar_partida>Lugar de Partida</lugar_partida>
+		<lugar_llegada>Lugar de Llegada</lugar_llegada>
+		<telemetria>Telemetría</telemetria>
+		<odometro>Odómetro</odometro>
+		<historico_avanzado>Histórico Avanzado</historico_avanzado>
+		<km_recorridos>Km Recorridos</km_recorridos>
+		<correos_enviados>Correos Enviados</correos_enviados>
+		<distancia>Distancia</distancia>
+		<fecha_gps>Fecha GPS</fecha_gps>
+		<ninguno>Ninguno</ninguno>
+		<agente>Agente</agente>
+		<general>General</general>
+		<sesion>Sesión</sesion>
+		<contacto>Contacto</contacto>
+		<alertas>Alertas</alertas>
+		<alertas_restantes>Alertas restantes</alertas_restantes>
+		<generado>Generado</generado>
+		<recibido>Recibido</recibido>
+		<ocurrencias>Ocurrencias</ocurrencias>
+		<confirmar_alerta>Confirmar alerta</confirmar_alerta>
+		<alerta_falta_pago>Alerta por falta de pago</alerta_falta_pago>
+		<campos_obligatorios>Campos obligatorios</campos_obligatorios>
+		<todos_moviles>Todos los Móviles</todos_moviles>
+		<todos_eventos>Todos los Eventos</todos_eventos>
+		<todos_alertas>Todas las Alertas</todos_alertas>
+		<idioma_default>Idioma del cliente</idioma_default>
+		<historico>Histórico</historico>
+		<motivos_cambio>Motivos de Cambio</motivos_cambio>
+		<delivery>Delivery</delivery>
+		<pedidos>Pedidos</pedidos>
+		<buscar_delivery>Buscar por Código de Viaje, Delivery o Pedido</buscar_delivery>
+		<buscar_viaje>Buscar por Código de Viaje</buscar_viaje>
+		<filtrar>Filtrar</filtrar>
+		<active_visualizacion>Active la visualización de lugares</active_visualizacion>
+		<contrasena_actual>Contraseña actual</contrasena_actual>
+		<contrasena_nueva>Contraseña nueva</contrasena_nueva>
+		<contrasena_nueva_repetir>Repetir contraseña nueva</contrasena_nueva_repetir>
+		<ayuda_cambio_contrasena>Para mayor seguridad, le recomendamos utilizar una combinación de letras, números y caracteres especiales (por ejemplo #,$ o !) en su contraseñaa.
+	       [br /]Evite el uso de:[br /][br /]
+                *        Los datos personales como cumpleaños, nombre etc.[br /]
+                *        Patrones del teclado (asdfgh).[br /]
+                *        Los números de serie (123) o letras repetidas (aaa).
+		</ayuda_cambio_contrasena>
+		<password_muy_corta>Muy Corta</password_muy_corta>
+		<password_muy_insegura>Muy Insegura</password_muy_insegura>
+		<password_insegura>Insegura</password_insegura>
+		<password_aceptable>Aceptable</password_aceptable>
+		<password_segura>Segura</password_segura>
+		<agregar_geocerca>Agregar Lugares</agregar_geocerca>
+		<direccion_no_encontrada>La dirección no fue encontrada</direccion_no_encontrada>
+		<estuvo_en>Estuvo En</estuvo_en>
+		<msg_cambio_password>La contraseña ingresada no es segura.</msg_cambio_password>
+		<movil_sin_reportar>Vehículo sin Reportar</movil_sin_reportar>
+		<importar_referencias>Importar Lugares</importar_referencias>
+		<referencia_a_revisar>Lugares a revisar</referencia_a_revisar>
+		<viaje_analizado>Viaje analizado</viaje_analizado>
+		<fecha_procesamiento>Fecha Procesamiento</fecha_procesamiento>
+		<ajustado>Ajustado</ajustado>
+		<pendiente>Pendiente</pendiente>
+		<ignorado>Ignorado</ignorado>
+		<disponibilidad_transportista>El transportista dispone de moviles para la fecha.</disponibilidad_transportista>
+		<buscar_tarea>Buscar tarea</buscar_tarea>
+		<nro_tarea>N# Recupero + SEGUIMIENTO CORREO</nro_tarea>
+		<flota>Flota</flota>
+		<title_tareas_grafico_1>Tareas en tiempo y demoras</title_tareas_grafico_1>
+		<title_tareas_grafico_2>Distribución por Flota</title_tareas_grafico_2>
+		<title_tareas_grafico_3>Estadía promedio</title_tareas_grafico_3>
+		<title_tareas_grafico_4>Distribución por conductor</title_tareas_grafico_4>
+		<rango_menos_1>Menos a 1hs</rango_menos_1>
+		<rango_entre_1_y_2>1hs a 2hs</rango_entre_1_y_2>
+		<rango_entre_2_y_4>2hs a 4hs</rango_entre_2_y_4>
+		<rango_entre_4_y_24>4hs a 24hs</rango_entre_4_y_24>
+		<rango_mas_24>Mas de 24hs</rango_mas_24>
+		<tarea_finalizada>Tarea Finalizada</tarea_finalizada>
+		<origen_tarea>Origen de la tarea</origen_tarea>
+		<tipo_tarea>Tipo de Tarea</tipo_tarea>
+		<tarea>Tarea</tarea>
+		<tareas>Tareas</tareas>
+		<asignar_movil>Asignar Móvil/Vehículo</asignar_movil>
+		<mi_cuenta>Mi Cuenta</mi_cuenta>
+		<movil_inactivo>Móvil Inactivo</movil_inactivo>
+		<cliente_inactivo>Flota Inactiva</cliente_inactivo>
+		<rastreo_sin_moviles>La cuenta no posee moviles activos.</rastreo_sin_moviles>
+		<mostrar_datos>Mostrar datos</mostrar_datos>
+		<ocultar_datos>Ocultar datos</ocultar_datos>
+		<lista_eventos>Lista de Eventos</lista_eventos>
+		<eventos_asignados>Eventos Asignados</eventos_asignados>
+		<indicar_movil>Móvil</indicar_movil>
+		<nombre_referencia>Nombre</nombre_referencia>
+		<nombre_alerta>Nombre</nombre_alerta>
+		<alertas_label_1>Esta alerta opera para</alertas_label_1>
+		<alertas_label_2>Cada vez que ingrese y egrese de</alertas_label_2>
+		<alertas_label_3>O se detecte</alertas_label_3>
+		<alertas_label_4>Para los días</alertas_label_4>
+		<alertas_label_5>Notificar a</alertas_label_5>
+		<alertas_label_6>En la franja horaria</alertas_label_6>
+		<alertas_option_1>Indicar Móvil...</alertas_option_1>
+		<alertas_option_2>Ingresar búsqueda...</alertas_option_2>
+		<alertas_option_3>Ingresar búsqueda...</alertas_option_3>
+		<alertas_option_4>Lunes a Viernes</alertas_option_4>
+		<alertas_option_5>Sábado y Domingo</alertas_option_5>
+		<alertas_option_6>Indicar E-mail</alertas_option_6>
+		<alertas_option_7>Desde</alertas_option_7>
+		<alertas_option_8>Hasta</alertas_option_8>
+		<navegador>Navegador</navegador>
+		<ingreso_exitoso>Ingreso Exitoso</ingreso_exitoso>
+		<ingreso_fallido>Ingreso Fallido</ingreso_fallido>
+		<estado_cuenta>Estado</estado_cuenta>
+		<abreviatura>Abreviatura</abreviatura>
+		<celular>Celular</celular>
+		<auto>Auto</auto>
+		<camion>Camión</camion>
+		<semi_acoplado>Semi - Acoplado</semi_acoplado>
+		<infomacion_recibida>Información recibida</infomacion_recibida>
+		<nombre_informe>Nombre del Informe</nombre_informe>
+		<tipo_envio>Tipo Envio</tipo_envio>
+		<ultimo_envio>Último Envio</ultimo_envio>
+		<activar_informe>Activar Informe</activar_informe>
+		<destinatarios>Destinatarios</destinatarios>
+		<seleccionar_todo>Seleccionar todo</seleccionar_todo>
+		<aplicar>Aplicar</aplicar>
+		<vacias>Vacías</vacias>
+		<a>a</a>
+		<abrev_hora>hr</abrev_hora>
+		<abrev_minutos>min</abrev_minutos>
+		<zona_interes>Zona de Interés?</zona_interes>
+		<punto_interes>Pto Interes?</punto_interes>
+		<entregado>Entregado</entregado>
+		<rechazado>Rechazado</rechazado>
+                <registro_activo>Activo</registro_activo>
+                <registro_baja>Borrado</registro_baja>
+
+
+		<titulo_tareas>Planning, Routing and Task Assignment</titulo_tareas>
+		<subtitulo_tareas>Add one or more destinations to create tasks and get a tracking number for each destination. Use route optimization for best routing and then assign tasks to your team.</subtitulo_tareas>
+		<titulo_monitoreo>Task Monitoring</titulo_monitoreo>
+		<subtitulo_monitoreo_1>Use the real time task monitoring to control your tasks and check if they have arrived on time or delayed. And also get the estimated time of arrival.</subtitulo_monitoreo_1>
+		<subtitulo_monitoreo_2>Use the last month task reports to get averages and improve your operation.</subtitulo_monitoreo_2>
+		<reporte_ultimo_mes>Realizados</reporte_ultimo_mes>
+		<reporte_tiempo_real>En curso</reporte_tiempo_real>
+		<reporte_ultimo_mes_vale>Verificado</reporte_ultimo_mes_vale>
+		<reporte_tiempo_real_vale>Pendiente de verificaión </reporte_tiempo_real_vale>
+		<asignar_tarea>Transporte y conductor</asignar_tarea>
+		<conector_tareas>Conectar celulares</conector_tareas>
+		<title_connect_time_1>Para conectar celulares a la cuenta,</title_connect_time_1>
+		<title_connect_time_2>por favor siga estos pasos</title_connect_time_2>
+		<connect_time_1>Desde el celular, descarga la aplicación Localizar-T Tracker del PlayStore o Apple Store.</connect_time_1>
+		<connect_time_2>Utilizar el siguiente código de producto: </connect_time_2>
+		<connect_time_3>Utilizar el siguiente código de validación: </connect_time_3>
+		<connect_time_4>Recuerde que debe descargar la aplicación en cada uno de los celulares que desea rastrear. Utilice el mismo código de producto y código de validación para todos los celulares.</connect_time_4>
+
+	</system>
+	
+	<!--
+	<item_menu_rastreo>
+		<item_1>Seleccionar todos los grupos</item_1>
+		<item_2>Seleccionar todos los móviles</item_2>
+		<item_3>Deseleccionar todos los grupos</item_3>
+		<item_4>Panel GPS a la izquierda</item_4>
+		<item_5>Panel GPS a la derecha</item_5>
+		<item_6>Mostrar checkbox de móviles</item_6>
+		<item_7>Ocultar checkbox de móviles</item_7>
+		<item_8>Sólo filtrar móvil</item_8>
+		<item_9>Filtrar y seguir móvil</item_9>
+		<item_10>Ordenar por Grupo</item_10>
+		<item_11>Ordenar por Cliente</item_11>
+		<item_12>Ordenar por Modelo de Equipo</item_12>
+		<item_13>Online - Offline</item_13>
+	</item_menu_rastreo>
+	-->
+	<menu>
+		<rastreo>¿Dónde Está?</rastreo>
+		<informes>¿Dónde Estuvo?</informes>
+		<administracion>Administración</administracion>
+			<acceso_cuenta>Acceso a la Cuenta</acceso_cuenta>
+				<abmUsuarios>Usuarios</abmUsuarios>
+			<abmClientes>Flota</abmClientes>	
+			<abmAllInOne>AllInOne</abmAllInOne>
+			<referencias>Lugares</referencias>
+				<abmReferencias>Ubicaciones</abmReferencias>
+				<abmReferenciasTrafico>Tráfico</abmReferenciasTrafico>
+			<moviles>Móviles</moviles>	
+				<abmMoviles>Móviles</abmMoviles>
+				<abmGrupoMoviles>Grupo de Móviles</abmGrupoMoviles>
+				<aMovilesUsuariosMasivo>Asignación de Usuarios a Móviles</aMovilesUsuariosMasivo>
+				<abmHistorico60Dias>Histórico mayor a 60 días</abmHistorico60Dias>
+			<equipos>Equipos</equipos>	
+				<abmEquipos>Equipos</abmEquipos>
+				<abmMarcaEquipos>Marca de Equipos</abmMarcaEquipos>
+				<abmModeloEquipos>Modelo de Equipos</abmModeloEquipos>
+				<envioComandos>Envío de Comandos</envioComandos>
+				<verificarEquipo>Verificar Equipo</verificarEquipo>
+				<abmDefinicionesEntradas>Definición de Entradas</abmDefinicionesEntradas>
+				<abmLogPanico>Logs de Pánicos</abmLogPanico>
+				<abmLogAltaMobile>Logs Alta de Mobile</abmLogAltaMobile>
+				<abmLogGateway>Logs Gateway</abmLogGateway>
+			<abmConductores>Conductores</abmConductores>
+			<abmAlertas>Alertas</abmAlertas>
+			<grillaAlertas>Grilla de Alertas</grillaAlertas>
+			<comandos>Comandos</comandos>
+				<abmComandos>Comandos</abmComandos>
+				<abmGrupoComandos>Grupo de Comandos</abmGrupoComandos>
+			<abmEstadisticas>Estadísticas</abmEstadisticas>
+			<abmHubs>Hubs</abmHubs>
+			<abmInterfaszGenerica>Interfaz Genérica</abmInterfaszGenerica>
+			<abmGeneradorDeInformes>Acciones</abmGeneradorDeInformes>	
+			<abmProtocolo>Protocolos de Envio</abmProtocolo>
+			<abmOctopus>Octopus</abmOctopus>
+		<entregasforza>Vales</entregasforza>
+		<retirosforza>Recuperos</retirosforza>
+		<logistica>Logística</logistica>
+			<viajes>Viajes</viajes>
+				<abmViajes>Viajes</abmViajes>		
+				<abmViajesArribosPartidas>Arribos y Partidas</abmViajesArribosPartidas>
+				<tableroMilkrun>TimeLine</tableroMilkrun>
+				<abmViajesAltaMasiva>Importar Viajes</abmViajesAltaMasiva>
+				<abmReferenciasAjustar>Corrector Inteligente</abmReferenciasAjustar>
+				<abmViajesDeliveryArribosPartidasPlanta>Arribos y Partidas a Planta</abmViajesDeliveryArribosPartidasPlanta>
+				<abmViajesDeliveryArribosPartidasCliente>Arribos y Partidas a Cliente</abmViajesDeliveryArribosPartidasCliente>
+				<abmViajesDeliveryPlayaVirtual>Playa Virtual</abmViajesDeliveryPlayaVirtual>
+			<delivery>Delivery</delivery>
+				<abmViajesDelivery>Entregas</abmViajesDelivery>
+				<abmViajesDeliveryArribosPartidas>Arribos y Partidas</abmViajesDeliveryArribosPartidas>
+				<abmViajesDeliveryAltaMasiva>Importar Archivos</abmViajesDeliveryAltaMasiva>
+			<abmViajesDisponibilidadTransportistas>Disponibilidad de Móviles</abmViajesDisponibilidadTransportistas>	
+			<informesPaquetizado>Cost Saver</informesPaquetizado>	
+		<agendaGPS>Agenda GPS</agendaGPS>
+		<intermil>Intermil</intermil>
+			<abmIntermill>Informe Histórico</abmIntermill>
+			<abmIntermillAP>Arribos y Partidas OnLine</abmIntermillAP>
+			<abmCruces>Viajes</abmCruces>
+		<opciones>+ Opciones</opciones>		
+			<cuenta>Herramientas</cuenta>
+			<preferencias>Preferencias</preferencias>
+			<abmConfMoviles>Configurar Móviles</abmConfMoviles>
+			<log>Accesos a la Cuenta</log>
+			<Helper>Ayuda</Helper>
+		<webservicesControl>Webservices Control</webservicesControl>
+		<salir>Salir</salir>
+		<ConnectYourTime>Conectar celulares</ConnectYourTime>
+	</menu>
+	
+	<botonera>
+		<buscar>Buscar</buscar>
+		<login>Ingresar</login>
+		<enviar>Enviar</enviar>
+		<agregar>Agregar</agregar>
+		<quitar>Agregar</quitar>
+		<exportar>Exportar</exportar>
+		<exportar_excel>Exportar</exportar_excel>
+		<importar_excel>Importar EXCEL</importar_excel>
+		<exportar_clientes>Exportar Clientes</exportar_clientes>
+		<exportar_status_equipos>Exportar Status de Equipos</exportar_status_equipos>
+		<guardar>Guardar</guardar>
+		<aceptar>Aceptar</aceptar>
+		<cancelar>Cancelar</cancelar>
+		<volver>Volver</volver>
+		<siguiente>Siguiente</siguiente>
+		<anterior>Anterior</anterior>
+		<finalizar>Finalizar</finalizar>
+		<cambiar>Cambiar</cambiar>
+		<examinar>Examinar</examinar>
+		<crear_viajes>Crear Viajes</crear_viajes>
+		<exportar_arribos>Exportar Arribos</exportar_arribos>
+		<exportar_partidas>Exportar Partidas</exportar_partidas>
+		<exportar_estadias>Exportar Estadías</exportar_estadias>
+		<cargar>Cargar</cargar>
+		<eliminar>Eliminar</eliminar>
+		<ver_mapa>Ver Mapa</ver_mapa>
+		<ver_historico>Ver Historico</ver_historico>
+		<ocultar_historico>Ocultar Historico</ocultar_historico>
+		<cerrar>Cerrar</cerrar>
+		<informe_historico>Informe del día</informe_historico>
+		<agregar_geozona>Agregar Geozona / Lugar</agregar_geozona>
+		<log_control>Log Control</log_control>
+		<programacion>Programación</programacion>
+		<configurar_horarios>Configurar Horarios</configurar_horarios>
+		<configurar_movil>Configurar Móvil</configurar_movil>
+		<confirmar>Confirmar</confirmar>
+		<ver_video>Reproducir Video</ver_video>
+		<reproduciendo_video>Reproduciendo Video</reproduciendo_video>
+		<volver_rastreo>Volver al Rastreo</volver_rastreo>
+		<ref_ajustar>Si, ajustar</ref_ajustar>
+		<ref_no_ajustar>No, no volver a mostrar</ref_no_ajustar>
+		<ref_ajustar_masTarde>Revisar en otro momento</ref_ajustar_masTarde>
+		<ajustar>Ajustar</ajustar>
+		<nueva_tarea>Nueva Tarea</nueva_tarea>
+		<agregar_nuevo>Agregar Nuevo</agregar_nuevo>
+		<importar_tareas>Tareas desde archivo</importar_tareas>
+		<guardar_cambios>Guardar Cambios</guardar_cambios>
+		<activar_informe>Activar Informe</activar_informe>
+		<desactivar_informe>Desactivar Informe</desactivar_informe>
+	</botonera>
+
+	<perfiles>
+		<administrador>Administrador</administrador>
+		<administrador_2>Administrador II</administrador_2>
+		<transportista_1>Agente Tipo 1</transportista_1>
+		<transportista_2>Agente Tipo 2</transportista_2>
+	</perfiles>
+</language>

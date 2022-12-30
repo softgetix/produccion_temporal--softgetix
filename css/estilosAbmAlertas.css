@@ -1,0 +1,132 @@
+fieldset {
+	/*background:#FFF; */
+	border:none !important;
+	padding:10px 10px !important;
+}
+
+fieldset label{
+	font-size:14px;
+	font-weight:normal;
+	margin-left:20px;
+	cursor:default;
+	font-weight:800;
+	color:#333;
+}
+
+fieldset label.etiqueta{
+	font-size: 12px;
+	color: #666;
+	font-weight:normal;
+}
+
+.content-tags {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px rgba(0,0,0,0.1);
+  box-shadow: 0 2px rgba(0,0,0,0.1);
+  /*background:#E9E9E9;*/
+  background:#FFF;
+  padding:10px;
+  margin-top:10px;
+}
+
+.content-tags .tags-input .tag {
+  display: block;
+  background:#cfccc7;
+  /*background:#3C8DDE;*/
+  margin-top: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 11px 25px 11px 10px;
+  margin-right: 10px;
+  font-weight:600;
+  color: #fff;
+  position: relative;
+  word-wrap: break-word;
+  max-width: 100%;
+  float: left;
+  left: 0;
+}
+
+.content-tags .tags-input .tag a{
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  height:14px;
+  width:14px;
+  background:url(../imagenes/delete_circle.png) no-repeat;
+}
+
+.content-tags .search_tags{
+	width: 220px !important;
+	float:left;
+	background:#F00;
+}
+
+.content-tags .search_tags input{
+	display: inline-block;
+	border: none;
+	width: 100% !important; 
+	outline: none;
+	padding: 11px 20px;
+	margin: 0;
+	/*background:#E9E9E9;*/
+	background:#FFF;
+	color:#333;
+}
+
+.content-tags .search_tags ul{
+	position:absolute;
+	z-index:1;
+	border:1px solid #CCC;
+}
+.content-tags .search_tags ul li{
+	border: none;
+	outline: none;
+	padding: 4px 20px;
+	margin: 0;
+	background:#FFF;
+	display:block;
+}
+
+.content-tags .search_tags ul li.active{
+	display:none !important;
+}
+
+.content-tags .search_tags ul li a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:14px;
+	color:#999;
+	display:block;
+}
+
+.content-tags .search_tags ul li a:hover,
+.content-tags .search_tags ul li a:focus{
+	color:#333;
+}
+
+.check{
+	display:inline-block;
+	height:20px;
+	width:20px;
+	position:relative;
+	top:6px;
+	margin-left:4px;
+}
+.check.check_on{background:url(../imagenes/check_on.png) no-repeat;}
+.check.check_off{background:url(../imagenes/check_off.png) no-repeat;}
+
+#alert-dias .content-tags{background:none !important;}
+#alert-dias .content-tags a{text-decoration:none;}
+#alert-dias .content-tags a span,
+#alert-horas .content-tags span{
+	font-size: 12px;
+    font-weight: normal;
+	color: #666;
+}
+#alert-dias .content-tags a:hover span{color:#333;}
+
+.ref{color:#F00; font-size:11px;}
+
+#alert-horas .content-tags span{font-size: 12px; font-weight: normal; color: #666; text-align:left; margin-bottom:6px;}

@@ -1,0 +1,24 @@
+
+#busqueda-simple {margin-top:10px;}
+fieldset{ border:none !important; float:left;}
+#colIzq{width:190px; !important}
+#mainInformes{margin-left: 0px !important; padding:10px;}
+
+a.button.colorin{margin-top:20px;}
+
+
+/**** desplegable de moviles ****/
+	#mainInformes ul li{display:block; width:180px;}
+	#mainInformes ul li a,
+	#mainInformes ul li ul li label,
+	#mainInformes ul li label{display:inline-block; width:96%; height:25px; line-height: 25px; padding-left: 10px; font-weight:normal;}
+	#mainInformes ul li input[type="checkbox"],
+	#mainInformes ul li input[type="radio"]{float:left; margin:6px 5px 0 0; cursor:pointer;}
+	#mainInformes ul li div.group{margin-bottom:2px; background:#EBEBEB; border-bottom:1px solid #aaa; border-top:1px solid #aaa;}
+	#mainInformes ul li ul li label:hover{background:#E9E9E9;}
+	
+	#mainInformes ul.grupoMoviles{ background: #f0f0f0 none repeat scroll 0 0;}
+	
+	#mainInformes span.nota{line-height:20px;  color:#09F; font-weight:bolder; margin-left:20px;}
+	
+/****  ****/

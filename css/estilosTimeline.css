@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div,  p, a, img, strong,ol, ul, li,fieldset, form, label,table, caption, tbody, tfoot, thead, tr, th, td { 
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; 	text-decoration: none; 
+}
+
+a { color: #666;}
+:focus { outline: 0; }
+body { line-height: 1; color: #666; background: white; font-family: Helvetica, arial, sans-serif; color: #666; font-size: 12px;}
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td {text-align: left; font-weight: normal; }
+
+
+/* Generales */
+p { line-height: 18px;} 
+.block { display: block !important;}
+.inline-block { display: inline-block;}
+.none { display: none !important;}
+.bold { font-weight: bold;}
+.float_l { float: left;}
+.float_r { float: right !important;}
+.no_float { float: none !important;}
+.relative { position: relative; }
+.clear { clear: both;} 
+.no_clear { clear: none !important;} 
+.no_margin { margin: 0 !important;}
+.no_border { border: none !important;}
+.no_padding { padding: 0 !important;}
+.align_left { text-align: left !important;}
+.align_center { text-align: center !important;}
+.align_right { text-align: right !important;}
+.margin_r { margin-right: 10px !important; }
+.margin_l { margin-left: 10px; }
+.margin_t { margin-top: 10px; }
+.padding_t { padding-top: 10px; }
+.radius { border-radius:5px;}
+
+input, textarea, select { border: 1px solid #ccc; height: 22px; display: block; margin-bottom: 16px; text-indent: 5px;}
+input.buscar{
+	background-image:url(../imagenes/lupa.png);
+	background-repeat:no-repeat;
+	background-position:250px 6px;
+	background-color:#ffffff;
+	padding-right: 25px;
+	height:25px;
+	width:248px;
+	margin:2px 3px 0px 2px;
+}	
+	
+/*tabla*/
+table { margin-bottom: 40px; border: 1px solid #999; border-bottom: 0; border-right: 0; clear: both; line-height: 16px; color: #444;}
+td { border: 1px solid #999; padding:8px 4px 8px 4px; border-width: 0 1px 1px 0; text-align: center; background: #fdfdf2; vertical-align: middle; word-wrap: break-word !important; }
+thead td { background: #f7f7d5; }
+thead td { font-size: 11px; }
+thead td.padding_time_td{ 
+	padding:0 2px 0 2px !important;}
+.padding_time{ 
+	padding:8px 0px 8px 0px  !important; display:block; width:28px;}
+
+
+tbody td.separador{ background:#999; line-height:2px !important; }
+tbody td.trayectoria_activa{ background:#CCC;}
+tbody td.trayectoria_inactiva{background:#FFF;}
+
+tbody td.r_viaje{ font-size:14px !important;}
+
+
+tbody td.guia_vehiculo{text-align:left !important;}
+.auto{position:relative;}
+.etiqueta_movil{
+	margin-top:5px;}
+	
+	
+.tabla-principal { margin-bottom:0px; border: 0px; border-bottom: 0; border-right: 0; clear: both; line-height: 0px; color: #fff;}
+.td-principal{ border: 0px ; padding: 0px; border-width: 0px 0px 0px 0px; text-align: center; background: #fff; vertical-align:top; font-size:10px !important;}
+.td-principal strong{ font-weight:bold !important;}
+
+.class-fixed{
+	position:fixed;
+	z-index:1;}
+
+.class-fixed-off{
+	position:absolute;
+	z-index:1;
+	left:0px;}	
+
+.class-absolute{
+	position:absolute;
+	left:400px;
+	z-index:-1}	
+
+thead td.info-table{
+	background:#EAEAEA;
+	text-align:right !important;
+	margin:0px !important;
+	padding:0px !important;
+	height:35px !important;}	
+thead td.info-table.hora-show{width:115px;}
+	
+thead td.info-table span{
+	display:block;
+	width:50px;
+	text-align:left !important;
+	float:right;
+}
+	
+thead td.info-table input[type="checkbox"]{
+	margin:0px 3px 0px 4px !important;
+	float:right;}	
+
+.logo{ padding:0px !important; margin:0px !important; text-align:center; background:#FFFFFF;}
+td#fecha_dia, td#fecha_hora{background:#FFFFFF;}
+td#fecha_dia{border-bottom-color:#FFFFFF;}
+#fecha_dia div{position:relative; top:8px;}
+#fecha_hora div{position:relative; bottom:8px;}
+
+#enc-datos-fixed, #enc-info-fixed{
+	position:fixed;
+	top:0px;
+	z-index:1;
+	border-top:1px solid #999;}
+
+
+.button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font:11px/normal sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    zoom: 1;
+    *display: inline;
+}
+
+.button img {
+	display: block;
+}
+
+.button:hover,
+.button:focus,
+.button:active,
+.button.colorin,
+.button.active {
+    border-color: #3072b3;
+    border-bottom-color: #2a65a0;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3C8DDE;
+}
+
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+	

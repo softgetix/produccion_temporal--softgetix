@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<public>
+	<banner>
+		<message>Promociones vigentes hasta el 23/3 inclusive. Consultalas haciendo click aquí</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#CA2339</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_promociones</link>
+	</banner>
+	<banner>
+		<message>Estimados tienen que tener un 50% de ventas ingresadas con abono pleno.</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#8CC63E</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_lista_de_precios</link>
+	</banner>
+	<banner>
+		<message>RESUMEN ENCUESTA DE COORDINACION DE INSTALACIONES</message>
+		<color_text>#FFFFFF</color_text>
+		<color_background>#00B7A8</color_background>
+		<link>https://www.agenteoficialadt.com/agenteoficialadt/boot.php?c=adtbiblioteca[#]solapa=adt_novedades</link>
+	</banner>
+
+
+		
+</public>

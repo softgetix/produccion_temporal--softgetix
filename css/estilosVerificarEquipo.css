@@ -1,0 +1,47 @@
+.ui-autocomplete{
+	max-height:15em;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 20px;
+}
+th{
+	text-align:center;
+}
+.resTxt{
+	width:250px;
+	display:none;
+}
+#main .mainBoxLICabecera, #mainBoxAM{
+	height:100% !important;
+}
+#main form{
+	height:94%;
+	*height:90%;
+}
+#nomenclado p{
+	margin: 3px 0;
+}
+#nomenclado li{
+	line-height:17px;
+}
+#nomenclado ul{
+	margin:0;
+}
+#nomenclado .title{
+	font-weight:bold;
+}
+.entrada{
+	display:inline-block;
+	height:16px;
+	width:16px;
+	background:url(../imagenes/estado_entrada.png);
+}
+.entrada.on{
+	background-position:16px 0;
+}
+.resOK{
+	background-color:#a6deba;
+}
+.resBAD{
+	background-color:#dea6ac;
+}

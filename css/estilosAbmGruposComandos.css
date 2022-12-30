@@ -1,0 +1,55 @@
+.td_label {
+	width: 200px;
+}
+.td_campo {
+	text-align: left !important;
+	width: 350px;
+}
+.td_campo input,.td_campo textarea {
+	width: 300px;
+}
+.td_campo select, .td_label select{
+	width:200px;
+	margin-top:10px;
+}
+.td_campo{
+	width:auto;
+}
+.td_campo label{
+	display:block;
+}
+#td_pasaje{
+	width:40px;
+}
+#td_pasaje button{
+	display:block;
+	width:36px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+#main .tablaOrden .botonTd{
+	padding-top:1px;
+	padding-bottom:1px;
+	height: 10px;
+}
+.tablaFiltro .botonTd{
+	text-align:left !important;
+}
+.o0{
+	background-image:url('../imagenes/ordenar_0.png');
+	background-position: center top;
+	background-repeat:no-repeat;
+	width:100%;
+	height:7px;
+	-webkit-user-select:none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+
+}
+.o1{
+	background-image:url('../imagenes/ordenar_1.png');
+}
+.o2{
+	background-image:url('../imagenes/ordenar_2.png');
+}

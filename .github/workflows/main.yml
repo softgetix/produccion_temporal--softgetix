@@ -1,0 +1,47 @@
+
+on: 
+  push:
+    branches:
+      - main
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: 64.202.189.193
+        port: 21
+        username: vivek@softgetix.com
+        password: ${{ secrets.FTP_PASSWORD }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/webchat/vendor/**
+          **/webchat/vendor.old/**
+          **/webchat/vendor.81/**
+          **/webchat/vendor56/**
+          **/webchat/system/**
+          **/clases/PHPExcel/**
+          **/imagenes/**
+          **/images/**
+          **/sounds/**
+          **/swf/**
+          **/js/ckeditor-3.1/**
+          **/js/jquery/**
+          **/js/media/**
+          **/js/openLayers/**
+          **/js/password/**
+          **/js/picker/**
+          **/js/sm2/**
+          **/js/language/**
+          **/informes/sql_logs/**
+          **/informes/clases/PHPExcel/**
+          info.php
+          Pallet_Swap_introduction.m4v
+          setupHK.exe

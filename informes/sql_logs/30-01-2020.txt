@@ -1,0 +1,5 @@
+
+ 
+ 05:50:06 - IP: 
+Error executing: exec db_envio_WS_SOAP_POD 4835
+Message DB: Conversion failed when converting the varchar value '27012020-2' to data type int.

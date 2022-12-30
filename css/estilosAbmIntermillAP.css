@@ -1,0 +1,194 @@
+#mainBoxAM ul, #mainBoxAM ul li
+{
+    list-style:none inside;
+}
+
+.float_l{
+	float:left;}
+fieldset{
+	border:none !important;}
+
+.cuerpo-grafico{
+	/*background-image:url(../imagenes/kcc_fondo_flechas.png);
+	background-repeat:no-repeat;
+	background-position:20px 10px;
+	background-size:1055px 1090px;
+	*/
+	position:relative;
+	z-index:1;
+	
+}
+
+#img-lineas{
+	width:1070px;
+	height:1090px;
+	position:relative !important;
+	/*top:-270px;
+	left:-320px;*/
+	top:-1140px;
+	left:8px;
+	
+	/*top:-335px;
+	left:-125px;
+	*/
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	margin-bottom:-900px;
+	z-index:0;
+	}
+		
+.cuerpo-grafico span{
+	font-size:11px;
+}
+	
+.cuerpo-grafico span.nro{
+	font-weight:bolder;
+	color:#f94a4a;
+	display:block;
+	text-align:center;
+	position:relative;
+	top:8px;
+	cursor:pointer;}	
+	
+.cuerpo-grafico span.label{
+	color:#1155CC;
+	display:block;
+	text-align:center;
+	font-size:13px;
+	position:relative;
+}
+	
+.cuerpo-grafico span.ingreso,
+.cuerpo-grafico span.egreso{
+	position:relative;
+	color:#D3D3D3;
+	font-weight:bolder;
+}
+
+.cuerpo-grafico span.ingreso.on,
+.cuerpo-grafico span.egreso.on{
+	color:#1155CC;
+	cursor:pointer;}
+	
+/*PROVEEDORES*/	
+.cuerpo-grafico fieldset.t-proveedor{
+	position:relative;
+	left:50px;}
+.cuerpo-grafico fieldset.t-proveedor .caja-proveedor{
+	width:130px;
+	height:70px;
+	background-image:url(../imagenes/kcc-proveedor.png);
+	background-position:35px 25px;
+	background-repeat:no-repeat;
+	margin-bottom:10px;}
+.cuerpo-grafico fieldset.t-proveedor .caja-proveedor.on{background-image:url(../imagenes/kcc-proveedor-on.png);}	
+.cuerpo-grafico fieldset.t-proveedor .caja-proveedor span.label{top:32px;}	
+
+/*** ***/
+.cuerpo-grafico fieldset.t-proveedor .caja-proveedor span.ingreso{
+	left:-8px;
+	top:12px;}
+.cuerpo-grafico fieldset.t-proveedor .caja-proveedor span.egreso{
+	left:115px;
+	top:16px;}
+
+/*PLANTAS*/	
+.cuerpo-grafico fieldset.t-planta .caja-planta{
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:1px 22px;}
+	
+/***  CK-PILAR ***/	
+.cuerpo-grafico fieldset.t-planta #ref-3484/*143*/.caja-planta
+{
+	width:135px;
+	height:156px;
+	background-image:url(../imagenes/kcc-planta2.png);
+	top:0px;
+	left:450px;}
+.cuerpo-grafico fieldset.t-planta #ref-3484/*143*/.caja-planta.on{background-image:url(../imagenes/kcc-planta2-on.png);}	
+.cuerpo-grafico fieldset.t-planta #ref-3484/*143*/.caja-planta span.label{top:113px;}
+.cuerpo-grafico fieldset.t-planta #ref-3484/*143*/.caja-planta span.egreso.kc-class{
+	left:170px;
+	top:13px;}	
+.cuerpo-grafico fieldset.t-planta #ref-3484/*143*/.caja-planta span.egreso.cliente{
+	left:159px;
+	top:60px;}		
+
+/***  SAN LUIS 2 ***/
+.cuerpo-grafico fieldset.t-planta #ref-2051/*134*/.caja-planta{
+	width:200px;
+	height:190px;
+	background-image:url(../imagenes/kcc-planta.png);
+	top:30px;
+	left:310px;}
+.cuerpo-grafico fieldset.t-planta #ref-2051/*134*/.caja-planta.on{background-image:url(../imagenes/kcc-planta-on.png);}	
+.cuerpo-grafico fieldset.t-planta #ref-2051/*134*/.caja-planta span.label{top:158px;}
+.cuerpo-grafico fieldset.t-planta #ref-2051/*134*/.caja-planta span.egreso.kc-class{
+	left:160px;
+	top:-40px;}	
+.cuerpo-grafico fieldset.t-planta #ref-2051/*134*/.caja-planta span.egreso.cliente{
+	left:150px;
+	top:182px;}				
+
+/*** ***/
+.cuerpo-grafico fieldset.t-planta span.ingreso{
+	position:relative;
+	left:245px;
+	top:66px;}	
+.cuerpo-grafico fieldset.t-planta span.egreso{
+	position:relative;
+	left:235px;
+	top:100px;}	
+
+
+/*DESPOSITOS*/	
+.cuerpo-grafico fieldset.t-deposito .caja-depositos{
+	position:relative;
+	width:120px;
+	height:140px;
+	background-image:url(../imagenes/kcc-deposito.png);
+	background-position:18px 25px;
+	background-repeat:no-repeat;}
+.cuerpo-grafico fieldset.t-deposito .caja-depositos.on{background-image:url(../imagenes/kcc-deposito-on.png);}	
+.cuerpo-grafico fieldset.t-deposito .caja-depositos span.label{top:100px;}	
+
+/***  KC CLAP ***/
+.cuerpo-grafico fieldset.t-deposito #ref-1822/*148*/.caja-depositos{
+	top:230px;
+	left:390px;}	
+.cuerpo-grafico fieldset.t-deposito #ref-1822/*148*/.caja-depositos span.egreso.cliente{
+	left:250px;
+	top:90px;}		
+	
+/*** KC CLASS ***/
+.cuerpo-grafico fieldset.t-deposito #ref-3487/*138*/.caja-depositos{
+	top:-70px;
+	left:590px;}
+.cuerpo-grafico fieldset.t-deposito #ref-3487/*138*/.caja-depositos span.ingreso{
+	top:122px;
+	left:50px;}
+.cuerpo-grafico fieldset.t-deposito #ref-3487/*138*/.caja-depositos span.egreso.cliente{
+	left:93px;
+	top:48px;}					
+
+
+/*CLIENTES*/	
+.cuerpo-grafico fieldset.t-cliente .caja-cliente{
+	position:relative;
+	width:135px;
+	height:120px;
+	background-image:url(../imagenes/kcc-cliente.png);
+	background-position:1px 25px;
+	background-repeat:no-repeat;
+	top:380px;
+	left:495px;}
+.cuerpo-grafico fieldset.t-cliente .caja-cliente.on{background-image:url(../imagenes/kcc-cliente-on.png);}	
+.cuerpo-grafico fieldset.t-cliente .caja-cliente span.label{top:95px;}
+
+
+	
+	
+	
+	

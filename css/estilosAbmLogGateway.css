@@ -1,0 +1,11 @@
+.filaPar{
+	background-color:#EAEAEA;
+}
+.filaImpar{
+	background-color:#FFF;
+}
+.float_l{float:left;}
+
+#ResultadoLog{padding:30px;}
+#ResultadoLog span{ display:block;padding:10px;}
+#ResultadoLog span p{ display:block; width:100%;}

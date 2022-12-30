@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:white;	
+}
+
+#content{
+	min-height:100% !important;
+	height:auto !important;
+	padding-top:18px !important;
+	*padding-top:30px !important;
+}
+#wrapper{
+	overflow-y:visible !important;
+	
+}
+
+div.maincontent
+{
+background-color:white;
+margin-top:-10px;
+overflow:hidden;
+}
+div.ppal{
+width:1000px;
+/*width:100%;*/
+height:auto;
+border:0px solid black;
+margin:auto;
+padding-top:20px;
+background-color:white;
+background-repeat:repeat-x;	
+overflow:visible;
+}
+
+img.logo{
+margin:14px;	
+}
+
+div.titulo{
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#333;
+display:inline;
+
+width:1000px;
+margin:auto;
+
+margin-left:280px;
+}
+
+div.texto{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+line-height:29px;
+/*margin-top:25px;*/
+text-align:justify;
+
+width:1000px;
+margin:auto;
+margin-top:60px;/*100px;*/
+margin-bottom: 55px;
+}
+
+div.texto b {
+	font-weight:bold;
+}
+
+div.elementos{
+
+background-color:transparent;
+position:absolute;
+width:1000px;
+/*width:100%;*/
+text-align:right;
+margin-top:4px;
+padding-right:0px;
+
+margin-bottom:50px;
+}
+
+div.alineadorElementos{
+padding-top:15px;
+background-color:transparent;
+margin-right:120px;
+width:1000px;
+}
+
+.alineacion{
+	margin-bottom:0px !important;
+	width:400px;
+	float:left !important;
+}
+
+input.boton{
+margin-top:25px;
+margin-bottom:30px;
+margin-left:20px;
+display:inline;
+/*width:75px;*/
+background-color:#015DAA;
+color:white;
+padding:8px;
+font-weight:bold;
+border:0px;
+border:1px solid #015DAA;
+cursor:pointer;
+min-width:90px;
+}
+input.boton:hover{
+margin-top:25px;
+margin-bottom:30px;
+margin-left:20px;
+display:inline;
+/*width:75px;*/
+background-color: #3E83BB;/*#B7DBF9;*/
+border:1px solid #015DAA;
+/*color:#015DAA;*/
+padding:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+input.radio{
+
+width:1.2em;
+height:1.2em;
+vertical-align:-9px;
+display:inline;
+
+}
+label.label{color:grey;}
+div.error{
+color:red;
+width:250px;
+margin:auto;	
+}
+div.imagen{
+width:100%;
+text-align:center;
+/*margin-top:100px;*/
+margin-bottom:20px;
+}
+img.imgnodo{
+
+}
+a.volver{
+margin-top:32px;
+margin-left:10px;
+}

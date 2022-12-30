@@ -1,0 +1,33 @@
+#navbar{border-bottom: none; box-shadow: none; padding: 10px 0 0px 0; background-color:#F6F6F6;}
+body{background-color: #FFF !important;}
+
+.userLogueado, #navbar fieldset .userLogueado span.logout a{color: #90a6bb;}
+#navbar fieldset .userLogueado span.nameUser{color: #355a9d; }
+
+
+#navbar .menu ul li a {color: #a0b4c5; font-weight: 500; font-size: 13px; }
+#navbar .menu ul li:hover a,
+#navbar .menu ul li.active_menu a{color: #355a9d; border-bottom: 2px solid #355a9d;}
+#navbar .menu ul li ul li a{color: #a0b4c5 !important; border-bottom:none !important}
+#navbar .menu ul li ul li a:hover{color: #355a9d !important; border-bottom:none !important}
+
+.button_xls{font-size: 13px; color: #355a9d !important; font-weight: 600;text-align: center; width: 183px; background-color: #f9db00; border-color:none !important; border: 1px solid #ffd72b}
+.button_xls:hover {
+   	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9db00), to(#f9db99));
+    background-image: -moz-linear-gradient(#f9db00, #f9db99);
+    background-image: -o-linear-gradient(#f9db00, #f9db99);
+	background-image: linear-gradient(#f9db00, #f9db99);
+}	
+
+.solapas a {color: #90a6bb !important; font-weight: 700;  font-size: 13px; border:none !important;}
+.solapas a.active, .solapas a:hover{background: #355a9d !important; color: #ffffff !important; 	}
+.solapas .contenido{border:none; background: none; padding:0px;}
+.solapas .contenido.flaps{border-top:2px solid #355a9d;}
+.solapas .contenido.flaps table thead td {background: #FFF; color:#95a9c0 }
+.solapas .contenido table thead td {height: 24px; background: #355a9d; font-size: 13px; color: #ffffff;	font-weight: 700; text-align: center; }
+.solapas .contenido table tbody td {font-size: 13px; color: #95a9c0;  font-weight: 600; text-align: center;}
+
+#main table tr.filaPar:hover td, #main table tr.filaPar:hover{background:#F7F7F7 !important; }
+#main table tr.filaImpar:hover td, #main table tr.filaImpar:hover {background:#FFF !important;}
+#main table tr.filaPar:hover td, #main table tr.filaImpar:hover td {color: #355a9d; font-weight: 700; }
+#main table tr.filaPar:hover td a, #main table tr.filaImpar:hover td a {background: none !important; color: #355a9d !important; }

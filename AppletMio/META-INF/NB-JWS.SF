@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: OtDhEPLlj8ONcNEMQVO0vljn1Cw=
+Created-By: 1.6.0_24 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: wQpanaXtWSeVSWoFFXTFODATmLo=
+
+Name: HardKeyApplet/HexDec.class
+SHA1-Digest: pSMnrAErHpiHWCwAI8tdcAScYpM=
+
+Name: HardKeyApplet/HardKey.class
+SHA1-Digest: vboTwzhmmxBEr51vi67CQlT2xOs=
+
+Name: HardKeyApplet/java.policy
+SHA1-Digest: w+ukJZUChkN5WVMvOdKDu0MItVA=
+
+Name: HardKeyApplet/ElApplet.class
+SHA1-Digest: gnYBZC3K0B/Muf+VK0HzWtu0bSY=
+
+Name: META-INF/INDEX.LIST
+SHA1-Digest: tvBd8Kdej/zBWCOB1Wcl6W/d0I4=
+

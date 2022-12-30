@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<localizart>
+		<default>No data</default>
+		<evento_1>Online</evento_1>
+		<evento_14>Left</evento_14>
+		<evento_15>Checked in </evento_15>
+		<evento_16>Has weak signal</evento_16>
+		<evento_29>Has low battery</evento_29>
+		<evento_34>Is waiting for position</evento_34>
+		<evento_75>Appears offline</evento_75>
+		<evento_76>Appears offline for more than 24 hr</evento_76>
+		<evento_80>Is now connected </evento_80>
+		<evento_81>Is not connected</evento_81>
+	</localizart>
+</clientes>

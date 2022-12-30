@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<localizart>
+		<label_iniciar_session>Log In</label_iniciar_session>
+		<usuario>Email address</usuario>
+		<password>Password</password>
+		<olvido_contrasena>Forgot your password?</olvido_contrasena>
+		<bloqueo_mayuscula>Caps Lock is ON</bloqueo_mayuscula>
+		<ingresar>Sign in</ingresar>
+		<msg_datos_incorrectos>Log in failed. Please check your details.</msg_datos_incorrectos>
+		
+		<recupero_contrasena>
+			<ingresar_mail>Email address</ingresar_mail>
+			<btn_enviar>Reset</btn_enviar>
+			<msg_ok> </msg_ok>
+			<msg_spam>We have sent an email to change your password. Check your spam folder if you do not find it.</msg_spam>
+			<msg_ingrese_mail>Please enter your email</msg_ingrese_mail>
+			
+			<msg_caduco_link> Your request has expired. Please go to Forgot your password? again.</msg_caduco_link>
+			<msg_ok_actualizacion>Password succesfully updated.</msg_ok_actualizacion>
+			<msg_error_actualizacion>Sorry. We could not process it. Try again.</msg_error_actualizacion>
+			<msg_error_formato_password>Password must have at least 8 characters (both numbers and letters).</msg_error_formato_password>
+			<msg_error_coinciden_password>Password must be the same you entered before.</msg_error_coinciden_password>
+			
+			<title_recupero>Forgot your password?</title_recupero>
+			<nueva_contrasena>New password</nueva_contrasena>
+			<repita_contrasena>Enter again your new password</repita_contrasena>
+			<btn_continuar>Next</btn_continuar>
+		</recupero_contrasena>
+	</localizart>
+	<adt>
+		<donde_esta_title>Where are you?</donde_esta_title>
+		<donde_esta_txt>It offers real time location shown on map (streets or avenue). </donde_esta_txt>
+		<donde_estuvo_title>Where have you been?</donde_estuvo_title>
+		<donde_estuvo_txt>It offers historical location to know where have you been at any time. </donde_estuvo_txt>
+		<mis_lugares_title>My places</mis_lugares_title>
+		<mis_lugares_txt>You can register your favourite places.</mis_lugares_txt>
+		<mis_alertas_title>My Alerts</mis_alertas_title>
+		<mis_alertas_txt>You can receive mails when you enter or leave your favourite places.</mis_alertas_txt>
+	</adt>
+</clientes>

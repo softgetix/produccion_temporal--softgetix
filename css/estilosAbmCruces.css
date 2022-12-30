@@ -1,0 +1,7 @@
+#mainBoxAM ul, #mainBoxAM ul li{list-style:none inside;}
+#divHorarios{display:none;}
+#cmbHoraEmpieza,#cmbHoraTermina,#cmbMinutEmpieza,#cmbMinutTermina{width:42px;}
+.td_campo .txtCal{width:65px;}
+.td_campo input,.td_campo select{width:154px;}
+#divHorarios{text-align: right;width: 240px;}
+

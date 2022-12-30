@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<message>
+		<ok>
+			<solicitud_enviada>Tu solicitud ha sido procesada con éxito!</solicitud_enviada>
+			<email_enviado>El e-mail se ha enviado con éxito!</email_enviado>	
+	  		<msj_alta>Registro dado de alta con éxito</msj_alta>
+			<msj_modificar>Registro modificado con éxito</msj_modificar>
+			<msj_baja>Registro eliminado con éxito</msj_baja>
+			<guardar_datos>Los datos fueron guardados con éxito!</guardar_datos>
+			<procesar_datos>Los datos fueron procesados con éxito!</procesar_datos>
+			<pruebas>La prueba se ha realizado correctamente</pruebas>
+		</ok>
+	  	<error>
+			<solicitud_enviada>Se ha producido un error, y tu solicitud no pudo ser procesada</solicitud_enviada>	
+			<email_enviado>El mail no se ha podido enviar. Verifique que la casilla de correo sea correcta</email_enviado>
+			<msj_alta>El registro ya ha sido cargado previamente</msj_alta>
+			<msj_modificar>El registro que quiere modificar no existe</msj_modificar>
+			<msj_baja>No se pudo eliminar el registro</msj_baja>
+			<guardar_datos>Ha ocurrido un error y los datos no han sido guardados.</guardar_datos>
+			<procesar_datos>Ha ocurrido un error y los datos no han sido procesados!</procesar_datos>
+			<pruebas>La prueba ha fallado</pruebas>
+			<upload_archivo>Se produjo un error al subir el archivo.</upload_archivo>
+	  	</error>
+
+		<interfaz_generica>
+			<msj_completar>Debe completar el campo ([NOMBRE_CAMPO])</msj_completar>
+			<msg_datos_guadados>Datos guardados correctamente.</msg_datos_guadados>
+			<msj_mail_incorrecto>Mail incorrecto ([NOMBRE_CAMPO])</msj_mail_incorrecto>
+			<msj_cant_min_caracteres>El campo [NOMBRE_CAMPO] no puede contener menos de [VALOR] caracteres</msj_cant_min_caracteres>
+			<msj_cant_max_caracteres>El campo [NOMBRE_CAMPO] no puede contener más de [VALOR] caracteres</msj_cant_max_caracteres>
+			<msj_campos_invalidos>El campo [NOMBRE_CAMPO] contiene caracteres inválidos</msj_campos_invalidos>
+			<msj_valor_numerico>El campo [NOMBRE_CAMPO] debe ser numérico</msj_valor_numerico>
+			<msj_valor_min>El valor del campo [NOMBRE_CAMPO] no puede ser menor a [VALOR]</msj_valor_min>
+			<msj_valor_max>El valor del campo [NOMBRE_CAMPO] no puede ser mayor a [VALOR]</msj_valor_max>
+			<msj_select_option>Debe elegir una opción para el campo ([NOMBRE_CAMPO])</msj_select_option>
+			<msj_campo_vacio>El campo [NOMBRE_CAMPO] no puede estar vacío</msj_campo_vacio>
+			<msj_formato_fecha>Debe ingresar una fecha en el formato [VALOR] ([NOMBRE_CAMPO])</msj_formato_fecha>
+			<msj_fecha_invalida>El campo [NOMBRE_CAMPO] no contiene una fecha válida</msj_fecha_invalida>
+			<msj_limite_registros>No encontró lo que buscaba? Utilice el buscador ubicado en la barra superior o haga [a href="[LINK]"]click aquí[/a] para ver todos los resultados</msj_limite_registros>
+			<msj_modificar_existe>El registro que intenta modificar ya existe</msj_modificar_existe>
+			<msj_extension_img>Extensión de imágenes válidas:</msj_extension_img>
+			<msj_extension_xls>Sólo se admiten archivos *.xls o *.xlsx.</msj_extension_xls>
+			<msj_extension_txt>Sólo se admiten archivos *.txt.</msj_extension_txt>
+			<msj_permiso_update_archivo>Usted no tiene permiso, para realizar la subida del archivo.</msj_permiso_update_archivo>
+			<msj_tamanio_max_archivo>Se excedió el máximo tamaño de archivo permitido</msj_tamanio_max_archivo>
+			<msj_seleccione_archivo>Selecione los archivos a importar.</msj_seleccione_archivo>
+			<msj_cant_caracteres>El campo [NOMBRE_CAMPO] debe tener [VALOR] caracteres.</msj_cant_caracteres>
+			<msj_valor_positivo>El campo [NOMBRE_CAMPO] debe ser positivo.</msj_valor_positivo>
+			<msj_formato_image>La imagen del campo [NOMBRE_CAMPO] debe ser jpg, jpeg o png.</msj_formato_image>
+		</interfaz_generica>
+		
+	
+			
+		<msj_cargando>Aguarde... Los datos están siendo procesados</msj_cargando>		
+		<info_error>Los datos no han sido guardados!, Se detectaron los siquientes errores:</info_error>
+		<email_vacio>Ingrese su dirección de email</email_vacio>
+		<email_incorrecto>La dirección de email ingresada es incorrecta</email_incorrecto>
+		<password_longitud>La contraseña debe contener al menos 10 caracteres, e incluir números y letras. Escriba su nueva contraseña, el validador le indicará cuando sea segura.</password_longitud>
+                <password_vacio>Ingrese su contraseña</password_vacio>
+		<password_distintos>Las contraseñas deben ser iguales</password_distintos>
+		<password_actual_error>La contraseña actual ingresada no es correcta.</password_actual_error>
+		<login_error>Usuario y/o Contraseña incorrecta</login_error>
+		<sin_resultados>No se han encontrado resultados para la búsqueda</sin_resultados>
+		<recupero_bloqueo_mayuscula>El bloqueo de mayúsculas está activado</recupero_bloqueo_mayuscula>
+		<recupero_resp>Se envió a tu casilla de correo los datos de acceso para cambiar tu contraseña. Recuerda revisar tu casilla de Spam en caso que no hayas recibido los datos de activación</recupero_resp>
+		<recupero_supero_limite>Ha superado el límite diario de reseteos</recupero_supero_limite>
+		<procesando_datos>Aguarde... Los datos están siendo procesados.</procesando_datos>
+		<tiempo_carga>Lo sentimos... Ha superado el tiempo de carga</tiempo_carga>
+		<ref_pointer_limit>* La ubicación no debe superar los 700mts respecto al punto recomendado</ref_pointer_limit>
+		<msj_utilice_buscador>Utilice el buscador para obtener resultados</msj_utilice_buscador>
+		<msj_ip_autorizada>El campo (IP Autorizada) no tiene un formato válido</msj_ip_autorizada>
+		<msj_baja_referencia_alertas>No se ha podido eliminar las siguientes referencias, porque tienen uno o mas alertas asignadas</msj_baja_referencia_alertas>
+		<msj_baja_error_identificador>No se permite eliminar el identificador</msj_baja_error_identificador>
+		<msj_expiro_session>Su sesión ha expirado.</msj_expiro_session>
+		<msj_select_baja>Debe seleccionar un registro para eliminar</msj_select_baja>
+		<msj_limite_baja>No puede eliminar mas de 15 registros simultaneos</msj_limite_baja>
+		<msj_confirmar_baja>Esta seguro que desea eliminar el/los registros seleccionados?</msj_confirmar_baja>
+		<msj_alerta_baja_equipo>Recuerde que si borra un equipo primario, el mismo dejará de reportar</msj_alerta_baja_equipo>
+		<msj_un_update>Solo se puede modificar un registro por vez</msj_un_update>
+		<msj_select_update>Debe seleccionar un registro para modificar</msj_select_update>
+		<msj_rastreo_posicion_invalida>móviles con posiciones inválidas</msj_rastreo_posicion_invalida>
+		<msj_rastreo_alertas>Indique el origen del evento, por favor</msj_rastreo_alertas>
+	</message>
+	
+	<system>
+		<abm_referencias>Administración de Mis Lugares</abm_referencias>
+		<abm_reglas_alertas>Administración de Mis Alertas</abm_reglas_alertas>
+		<abm_grupoMoviles>Administración de Grupos de Móviles</abm_grupoMoviles>
+		
+		<usuario>Usuario</usuario>
+		<usuario_mc>Usuario DB - Módulo Comunicación</usuario_mc>
+		<nombre_apellido>Nombre y Apellido</nombre_apellido>
+		<nombre>Nombre</nombre>
+		<apellido>Apellido</apellido>
+		<cedula>DNI</cedula>
+		<email>E-Mail</email>
+		<email_alerta>E-Mail Alertas</email_alerta>
+		<telefono>Teléfono</telefono>
+		<zona>Zona</zona>
+		<region>Región</region>
+		<pasaporte>DNI</pasaporte>
+		<fax>Fax</fax>
+		<direccion>Dirección</direccion>
+		<pais>Pais</pais>
+		<provincia>Provincia</provincia>
+		<localidad>Localidad</localidad>
+		<ciudad>Partido</ciudad>
+		<cod_postal>Cp</cod_postal>
+		<torre>Torre</torre>
+		<dpto>Dpto</dpto>
+		<piso>Piso</piso>
+		<altura>Altura</altura>
+		<avenida>Avenida</avenida>
+		<calle>Calle</calle>
+		<entre>Entre</entre>
+		<perfil>Perfil</perfil>
+		<acceso_webservices>Acceso a WebServices</acceso_webservices>
+		<fecha_expiracion>Fecha expiración (yyyy/mm/dd)</fecha_expiracion>
+		<ingresar_como>Ingresar Como</ingresar_como>
+		<usuario_bloqueado>Usuario Bloqueado</usuario_bloqueado>
+		<expiro_cuenta>Expiró Cuenta</expiro_cuenta>
+		<comentarios>Comentarios</comentarios>
+		<password>Contraseña</password>
+		<repetir_password>Repetir Contraseña</repetir_password>
+		<cambiar_password>Cambiar Contraseña</cambiar_password>
+		<olvido_password>¿Olvidó su contraseña?</olvido_password>
+		<ip_autorizada>IP Autorizada</ip_autorizada>
+		<hardkey>PIN</hardkey>
+		<acceso_version_mobile>Acceso versión mobile</acceso_version_mobile>
+		<descripcion>Descripción</descripcion>
+		<bienvenido>Bienvenido</bienvenido>
+		<filtro>Filtro</filtro>
+		<filtro_buscador>Buscar</filtro_buscador>
+		<seleccione>Seleccione</seleccione>
+		<todos>Todos</todos>
+		<otros>Otros</otros>
+		<centrar>Centrar</centrar>
+		<si>Si</si>
+		<no>No</no>
+		<y>y</y>
+		<o>o</o>
+		<cliente>EPS</cliente>
+		<razon_social>Nombre EPS</razon_social>
+		<Cuit>N# EPS</Cuit>
+		<tipo_cliente>Config.</tipo_cliente>
+		<habilitado>Habilitado</habilitado>
+		<ubicacion>Ubicación</ubicacion>
+		<moviles>Móviles</moviles>
+		<movil>Móvil</movil>
+		<grupo>Grupo de trabajo</grupo>
+		<referencia>Referencia</referencia>
+		<tipo_referencia>Tipo de Referencia</tipo_referencia>
+		<datos_referencia>Datos de la referencia</datos_referencia>
+		<categoria>Categoría</categoria>
+		<tamanio>Tamaño</tamanio>
+		<chica>Chica</chica>
+		<mediana>Mediana</mediana>
+		<grande>Grande</grande>
+		<tipo_camino>Tipo Camino</tipo_camino>
+		<ejemplo_direccion>Ej: Av. Corrientes 3900, Capital Federal, Argentina</ejemplo_direccion>
+		<usuarios>Técnicos y Usuarios</usuarios>
+		<crear_grupo>Crear nuevo grupo?</crear_grupo>
+		<sin_grupo>Sin Grupo</sin_grupo>
+		<usuario_creador>Usuario creador</usuario_creador>
+		<alertas_creadas_1>La alerta fue creada por otro usuario</alertas_creadas_1>
+		<seleccionar_items>Debe seleccionar uno o más items para</seleccionar_items>
+		<evento>Evento</evento>
+		
+		<alertas_txt1>a</alertas_txt1>
+		<alertas_txt2>Debe seleccionar al menos un móvil para la alerta</alertas_txt2>
+		<alertas_txt3>Debe seleccionar al menos una geocerca o evento para la alerta</alertas_txt3>
+		<alertas_txt4>Esta alerta funciona en el</alertas_txt4>
+		<alertas_txt40>del móvil</alertas_txt40>
+		<alertas_txt5>del móvil</alertas_txt5>
+		<alertas_txt6>de los moviles</alertas_txt6>	
+		<alertas_txt7>o se detecte</alertas_txt7>
+		<alertas_txt8>Esta alerta funciona cuando se detecte</alertas_txt8>	
+				
+		<estado>Estado</estado>
+		<activada>Activada</activada>
+		<desactivada>Desactivada</desactivada>
+		<eventos_disponible>Eventos disponibles</eventos_disponible>
+		<eventos_seleccionados>Eventos seleccionados</eventos_seleccionados>
+		<grupos>Grupos</grupos>
+		<moviles_seleccionados>Móviles seleccionados</moviles_seleccionados>
+		<usuarios_seleccionados>Usuarios elegidos</usuarios_seleccionados>
+		<probar>Probar</probar>
+		<resumen_alerta>Resumen de la Alerta</resumen_alerta>
+		<geocercas>Geozonas</geocercas>
+		<grupo_geocercas>Grupo de geozonas</grupo_geocercas>
+		<geocercas_disponibles>Geozonas disponibles</geocercas_disponibles>
+		<geocercas_seleccionados>Geozonas seleccionadas</geocercas_seleccionados>
+		<nadie>nadie</nadie>
+		<cant>Cant</cant>
+		<max>Máx.</max>
+		<busqueda>Búsqueda</busqueda>
+		<ver_video>Ver video tutorial</ver_video>
+		<fecha>Fecha</fecha>
+		<orden>Orden</orden>
+		<edicion_referencia>Edicion Referencia: [DATOS_ACTUALES] por los siguientes datos: [DATOS_EDITADOS]</edicion_referencia>
+		<ultima_conexion>Últ. Conexión</ultima_conexion>
+		<dia_hora_gps>Día/Hora GPS</dia_hora_gps>
+		<coordenadas>Coordenadas</coordenadas>
+		<dato_gps>Dato GPS</dato_gps>
+		<senial_gps>Señal GPS</senial_gps>
+		<en>En</en>
+		<hoy>Hoy</hoy>
+		<ayer>Ayer</ayer>
+		<modificar_grupo>Modificar Grupo</modificar_grupo>
+		<asignar_grupo>Asignar Grupo</asignar_grupo>
+		<bateria>Batería</bateria>
+		<bateria_baja>Batería Baja</bateria_baja>
+		<sin_cobertura>Sin Cobertura</sin_cobertura>
+		<cobertura_mala>Cobertura Mala</cobertura_mala>
+		<cobertura_regular>Cobertura Regular</cobertura_regular>
+		<cobertura_buena>Cobertura Buena</cobertura_buena>
+		<cobertura_muy_buena>Cobertura Muy Buena</cobertura_muy_buena>
+		<wifi_apagado>Wifi Apagado</wifi_apagado>
+		<gps_apagado>GPS Apagado</gps_apagado>
+		<gps_encendido>GPS Encendido</gps_encendido>
+		<sin_nombre>Sin Nombre</sin_nombre>
+		<velocidad>Velocidad</velocidad>
+		<datos_gps>Datos GPS</datos_gps>
+		<sentido>Sentido</sentido>
+		<norte>Norte</norte>
+		<noreste>Noreste</noreste>
+		<este>Este</este>
+		<sudeste>Sudeste</sudeste>
+		<sur>Sur</sur>
+		<sudoeste>Sudoeste</sudoeste>
+		<oeste>Oeste</oeste>
+		<noroeste>Noroeste</noroeste>
+		<agregar_punto>Si</agregar_punto>
+		<no_mostrar>No, no volver a mostrar</no_mostrar>
+		<sugerencia_inteligencia>En base a tus movimientos te sugerimos agregar este lugar como punto de interés</sugerencia_inteligencia>
+		<ocultar_referencias>Ocultar Referencias</ocultar_referencias>
+		<mostrar_referencias>Mostrar Referencias</mostrar_referencias>
+		<comandos_favoritos>Comandos favoritos</comandos_favoritos>
+		<rastreo_buscador>Móvil, Geozona o Dirección</rastreo_buscador>
+		<mapa>Mapa</mapa>
+		<detalle>Detalle</detalle>
+		<odometro>Odómetro</odometro>
+		<correos_enviados>Correos Enviados</correos_enviados>
+		<distancia>Distancia</distancia>
+		<fecha_gps>Fecha GPS</fecha_gps>
+		<ninguno>Ninguno</ninguno>
+		<general>General</general>
+		<sesion>Sesión</sesion>
+		<contacto>Contacto</contacto>
+		<alertas>Alertas</alertas>
+		<alertas_restantes>Alertas restantes</alertas_restantes>
+		<generado>Generado</generado>
+		<recibido>Recibido</recibido>
+		<ocurrencias>Ocurrencias</ocurrencias>
+		<campos_obligatorios>Campos obligatorios</campos_obligatorios>
+		<historico>Recorrido del Móvil</historico>
+		<filtrar>Filtrar</filtrar>
+		<active_visualizacion>Active la visualización de referencias</active_visualizacion>
+		<contrasena_actual>Contraseña actual</contrasena_actual>
+		<contrasena_nueva>Contraseña nueva</contrasena_nueva>
+		<contrasena_nueva_repetir>Repetir contraseña nueva</contrasena_nueva_repetir>
+		<ayuda_cambio_contrasena>Para mayor seguridad, le recomendamos utilizar una combinación de letras, números y caracteres especiales (por ejemplo #,$ o !) en su contraseñaa.
+	       [br /]Evite el uso de:[br /][br /]
+                *        Los datos personales como cumpleaños, nombre etc.[br /]
+                *        Patrones del teclado (asdfgh).[br /]
+                *        Los números de serie (123) o letras repetidas (aaa).
+		</ayuda_cambio_contrasena>
+		<password_muy_corta>Muy Corta</password_muy_corta>
+		<password_muy_insegura>Muy Insegura</password_muy_insegura>
+		<password_insegura>Insegura</password_insegura>
+		<password_aceptable>Aceptable</password_aceptable>
+		<password_segura>Segura</password_segura>
+		<agregar_geocerca>Agregar Geocerca</agregar_geocerca>
+		<direccion_no_encontrada>La dirección no fue encontrada</direccion_no_encontrada>
+		<estuvo_en>Estuvo En</estuvo_en>
+		<nro_entidad>Nro de Entidad</nro_entidad>
+		<cant_licencias>Cant. de Licencias</cant_licencias>
+		<codigo_activacion>Código de Activación</codigo_activacion>
+		<cuenta_activa>Cuenta Activa</cuenta_activa>
+		<cant_moviles_vs_cant_licencias>Cant. Móviles / Cant. Licencias</cant_moviles_vs_cant_licencias>
+		<terminos_condiciones>Términos y Condiciones</terminos_condiciones>
+		<zonas_panico>Zonas de Pánico</zonas_panico>
+		<reset_clave>Reset Clave</reset_clave>
+		<probador_panico>Probador Pánico</probador_panico>
+		<probar_panico>Probar pánico</probar_panico>
+		<baja_cliente>Baja Cliente</baja_cliente>
+		<agregar_zona>Agregar Zona</agregar_zona>
+		<msg_agregar_zonas>Para poder crear	Zonas de Pánico debe tener la cuenta activa.</msg_agregar_zonas>
+		<msg_definir_zona>Defina por lo menos una zona para utilizar el probador de pánico.</msg_definir_zona>
+		<title_cambio_clave>Enviar mail solicitando cambio de clave</title_cambio_clave>
+		<editar_cliente>Editar Cliente</editar_cliente>
+		<nuevo_cliente>Nuevo Cliente</nuevo_cliente>
+		<email_cuenta>E-mail de la cuenta</email_cuenta>
+		<nro_celular_sms>Nro de Celular a enviar SMS.</nro_celular_sms>
+		<msg_envio_sms>Ingrese los números de contacto separados por coma sin 0 ni 15. Por ejemplo, 1131234567</msg_envio_sms>
+		<msg_envio_sms_usuario>Se han enviado [SMS-ENVIADOS] de [SMS-MAX] SMS para esta cuenta.</msg_envio_sms_usuario>
+		<msg_descarga_findu>Para descargar ADT FindU ingrese a: https://www.adtfindu.com/adt/mobile/descargaMovil.php. Codigo: [CODIGO-VALIDACION]. 0810-555-1008</msg_descarga_findu>
+		<msg_sms_supero_cant_envios>Ha superado la cant. máx de SMS enviados para este cliente.</msg_sms_supero_cant_envios>
+		<msg_codigo_no_generado>Se ha producido un error, y el código no pudo ser generado.</msg_codigo_no_generado>
+		<msg_cant_licencias_error>La Cant. de Licencias no puede ser menor a [CANT-LICENCIAS] (Cant. de móviles asociados a la cuenta)</msg_cant_licencias_error>
+		<msg_nro_entidad_error>El Número de Entidad ingresado, ya está en uso.</msg_nro_entidad_error>
+		<msg_email_error>El E-mail ingresado es incorrecto</msg_email_error>
+		<msg_cant_licencias_permitidas>La Cant. de Licencias permitidas es entre 1 y 4.</msg_cant_licencias_permitidas>
+		<msg_datois_obligatorios_error>Verifique los datos solicitados, todos son requeridos.</msg_datois_obligatorios_error>
+		<cant_clientes>Cant. de Clientes</cant_clientes>
+		<cant_licencias_vendidas>Cant. de Licencias Vendidas</cant_licencias_vendidas>
+		<cant_licencias_vendidas_cliente>Cant. de Licencias Vendidas por Cliente</cant_licencias_vendidas_cliente>
+		<cant_licencias_activas>Cant. de Licencias Activas</cant_licencias_activas>
+		<cant_licencias_inactivas>Cant. de Licencias Inactivas</cant_licencias_inactivas>
+		<cant_licencias_panicos_probados>Cant. de Licencias con Pánicos Probados</cant_licencias_panicos_probados>
+		<movileas_sin_reportar>Móviles sin Reportar + 30 días</movileas_sin_reportar>
+		<licencias_adquiridas>Licencias Adquiridas</licencias_adquiridas>
+		<fecha_alta>Fecha Alta</fecha_alta>
+		<nro_celular>Nro Celular</nro_celular>
+		<nombre_movil>Nombre Móvil</nombre_movil>
+		<sistema_operativo>Sist. Op.</sistema_operativo>
+		<title_clientes>Clientes</title_clientes>
+		<title_licencias_vendidas>Licencias Vendidas</title_licencias_vendidas>
+		<title_licencias_activas>Licencias Activas</title_licencias_activas>
+		<title_licencias_inactivas>Licencias Inactivas</title_licencias_inactivas>
+		<title_licencias_panicos_probados>Pánicos Probados</title_licencias_panicos_probados>
+		<title_moviles_sin_reportar>Moviles sin Reportar</title_moviles_sin_reportar>
+		<fecha_recepcion_panico>Fecha Recepción Pánico</fecha_recepcion_panico>
+		<ubicacion_panico>Ubicación del Pánico</ubicacion_panico>
+		<fecha_ultimo_reporte>Fecha Último Reporte</fecha_ultimo_reporte>
+		<cant_dias_sin_reportar>Cant. de días sin reportar</cant_dias_sin_reportar>
+		<ingreso>Ingreso</ingreso>
+		<egreso>Egreso</egreso>
+		<msg_contratar_licencias>Debe contratar mas licencias si desea activar otro.</msg_contratar_licencias>
+		<title_moviles_cuenta>Móviles de la cuenta</title_moviles_cuenta>
+		<msg_no_tiene_moviles>No se registran móviles para dicho cliente</msg_no_tiene_moviles>
+		<desactivar>Desactivar</desactivar>
+		<activar>Activar</activar>
+		<manual>MANUAL</manual>
+		<automatico>AUTOMATICO</automatico>
+		<volver_automatico>Volver a Posicionamiento AUTOMATICO</volver_automatico>
+		<volver_manual>Encender Posicionamiento MANUAL</volver_manual>
+		<msg_advertencia_referencias>Advertencia: si modifica la ubicación de la referencia, se perderán las pruebas de pánico de esta referencia.</msg_advertencia_referencias>
+		<title_datos_ubicacion>Datos de ubicación</title_datos_ubicacion>
+		<lt>LT</lt>
+		<tipo>Tipo</tipo>
+		<posicionamiento_actual>Posicionamiento actual</posicionamiento_actual>
+		<msg_ref_lt_formato>El campo LT contiene caracteres inválidos</msg_ref_lt_formato>
+		<msg_ref_interseccion_zonas>La Zona Segura que quiere crear está intersectando con la Zona Segura ADT [NUMBER-ZONA]. Intente cambiar la ubicación.</msg_ref_interseccion_zonas>
+		<msg_ref_lt_en_uso>El código LT ingresado, ya ésta en uso</msg_ref_lt_en_uso>
+		<msg_ref_error_posicion>No se pudo posicionar la referencia en el mapa.</msg_ref_error_posicion>
+		<title_probador_panico>Pobrador de Pánico</title_probador_panico>
+		<sin_probar>Sin probar</sin_probar>
+		<volver_abm_clientes>Volver a Administración de Clientes</volver_abm_clientes>
+		<atencion>Atención</atencion>
+		<mas_tarde>Más tarde</mas_tarde>
+		<esperando_panico>Esperando pánico</esperando_panico>
+		<segundos>segundos</segundos>
+		<prueba_panico_exitosa>Prueba de pánico exitosa</prueba_panico_exitosa>
+		<zonas_seguras_adt>Zonas Seguras ADT</zonas_seguras_adt>
+		<probador_panico_txt1>
+			Recuerde:[br]
+			Si realizó una prueba de pánico para este móvil en otra zona debe esperar 10 minutos para realizar la siguiente.[br]
+			Tiene 20 segundos para oprimir el pánico desde el móvil y solo se verificará la recepción vía GPRS, no SMS (Backup).
+		</probador_panico_txt1>	
+		<probador_panico_txt2>¿Desea comenzar la prueba, para el móvil [SPAN-MOVIL] en la [SPAN-ZONA]?</probador_panico_txt2>
+		<probador_panico_txt3>Probando pánico para el móvil [SPAN-MOVIL] en la [SPAN-ZONA]</probador_panico_txt3>
+		<probador_panico_txt4>El botón de pánico estará habilitado en los próximos 10 minutos.</probador_panico_txt4>
+		<probador_panico_txt5>
+			Pánico recibido fuera de zona.[br /]
+			Verifique si la dirección está correctamente ingresada y que se encuentra dentro de la misma.
+		</probador_panico_txt5>
+		<probador_panico_txt6>
+			No hay disponibilidad técnica.[br /]
+			Motivos:[br /]
+			1- Baja señal celular.[br /]
+			2- Características técnicas del modelo celular.[br /]
+			3- Permisos de acceso a GPS, Wifi o datos de antena inhabilitados.
+		</probador_panico_txt6>
+		<probador_panico_txt7>
+			Recuerde que el pánico se dispara oprimiendo 5 veces el botón de encendido/apagado (Android) o bloqueo/desbloqueo (Blackberry) en menos de 3 segundos.
+			Usted recibirá como confirmación de pánico enviado una vibración en su celular.
+		</probador_panico_txt7>
+		<probador_panico_txt8>No se ha recibido el pánico del móvil.</probador_panico_txt8>
+		<probador_panico_txt9>No se han creado zonas de panico para esta cuenta.</probador_panico_txt9>
+		<probador_panico_txt10>La cuenta no tiene móviles asociados</probador_panico_txt10>
+		<probador_panico_txt11>No tiene servicio de pánico activo</probador_panico_txt11>
+		<probador_panico_txt12>Batería baja</probador_panico_txt12>
+		<probador_panico_txt13>Sin conexión con el móvil</probador_panico_txt13>
+		<probador_panico_txt14>No cuenta con disponibilidad técnica.</probador_panico_txt14>
+		<probador_panico_txt15>ATENCION! Esta acci\u00f3n desvinculara la Zona de p\u00e1nico del dispositivo m\u00f3vil \nDesea continuar?</probador_panico_txt15>
+		<desvincular>Desvincular</desvincular>
+		<msg_cambio_password>La contraseña ingresada no es segura.</msg_cambio_password>
+		<rastreo_sin_moviles>La cuenta no posee moviles activos.</rastreo_sin_moviles>
+		<msg_eliminar_licencia>Está seguro de querer eliminar la licencia?</msg_eliminar_licencia>
+		<eliminar_licencia>Eliminar Licencia</eliminar_licencia>
+		<licencia_eliminada>Licencia Eliminada</licencia_eliminada>
+		<mostrar_datos>Mostrar datos</mostrar_datos>
+		<ocultar_datos>Ocultar datos</ocultar_datos>
+		<indicar_movil>Móvil</indicar_movil>
+		<nombre_referencia>Nombre</nombre_referencia>
+		<nombre_alerta>Nombre</nombre_alerta>
+		<alertas_label_1>Esta alerta opera para</alertas_label_1>
+		<alertas_label_2>Cada vez que ingrese y egrese de</alertas_label_2>
+		<alertas_label_3>O se detecte</alertas_label_3>
+		<alertas_label_4>Para los días</alertas_label_4>
+		<alertas_label_5>Notificar a</alertas_label_5>
+		<alertas_label_6>En la franja horaria</alertas_label_6>
+		<alertas_option_1>Indicar Móvil...</alertas_option_1>
+		<alertas_option_2>Ingresar búsqueda...</alertas_option_2>
+		<alertas_option_3>Ingresar búsqueda...</alertas_option_3>
+		<alertas_option_4>Lunes a Viernes</alertas_option_4>
+		<alertas_option_5>Sábado y Domingo</alertas_option_5>
+		<alertas_option_6>Indicar E-mail</alertas_option_6>
+		<alertas_option_7>Desde</alertas_option_7>
+		<alertas_option_8>Hasta</alertas_option_8>
+		<navegador>Navegador</navegador>
+		<ingreso_exitoso>Ingreso Exitoso</ingreso_exitoso>
+		<ingreso_fallido>Ingreso Fallido</ingreso_fallido>
+		<estado_cuenta> </estado_cuenta>
+		<a>a</a>
+		<zona_interes>Zona de Interés?</zona_interes>
+		<punto_interes>Pto Interes?</punto_interes>
+                <registro_activo>Activo</registro_activo>
+                <registro_baja>Borrado</registro_baja>
+
+		<mi_cuenta>Mi Cuenta</mi_cuenta>
+		<archivos_subidos>Archivos previamente subidos</archivos_subidos>		
+	</system>
+	
+	<menu>
+		<rastreo>¿Dónde Está?</rastreo>
+		<informes>¿Dónde Estuvo?</informes>
+		<abmAlertas>Mis Alertas</abmAlertas>
+		<abmReferencias>Mis Lugares</abmReferencias>
+		<abmClientes>EPS</abmClientes>
+		<grillaAlertas>Rastreo</grillaAlertas>
+		<abmEstadisticas>Estadísticas</abmEstadisticas>
+		<opciones>+ Opciones</opciones>		
+			<cuenta>Mi Cuenta</cuenta>
+			<log>Accesos a la Cuenta</log>
+			<Helper>Ayuda</Helper>
+			<acceso_cuenta>Acceso a la Cuenta</acceso_cuenta>
+		<salir>Salir</salir>
+		<abmAllInOneMoviles>Mis Dispositivos</abmAllInOneMoviles>
+		
+		<adttablerodecontrol>Tablero de Control</adttablerodecontrol>
+		<adtcargaarchivos>Subida diaria de archivo Excel</adtcargaarchivos>
+			<adtaltamasiva>Aprobaciones y Activaciones</adtaltamasiva>
+			<adtaltamasiva2>Coordinaciones y Pendientes</adtaltamasiva2>
+			<adtaltamasiva3>No trabajables</adtaltamasiva3>
+		<adtbiblioteca>Biblioteca</adtbiblioteca>
+		<adtintranet>Intranet</adtintranet>
+		<adtintranetadmin>Administración</adtintranetadmin>
+		<abmUsuarios>Técnicos y Usuarios</abmUsuarios>
+		<adthome>HOME</adthome>
+	</menu>
+	
+	<botonera>
+		<buscar>Buscar</buscar>
+		<login>Ingresar</login>
+		<enviar>Enviar</enviar>
+		<agregar>Agregar</agregar>
+		<quitar>Agregar</quitar>
+		<exportar>Exportar</exportar>
+		<exportar_excel>Exportar</exportar_excel>
+		<guardar>Guardar</guardar>
+		<aceptar>Aceptar</aceptar>
+		<cancelar>Cancelar</cancelar>
+		<volver>Volver</volver>
+		<siguiente>Siguiente</siguiente>
+		<anterior>Anterior</anterior>
+		<finalizar>Finalizar</finalizar>
+		<cambiar>Cambiar</cambiar>
+		<examinar>Examinar</examinar>
+		<cargar>Cargar</cargar>
+		<eliminar></eliminar>
+		<ver_mapa>Ver Mapa</ver_mapa>
+		<ver_historico>Ver Historico</ver_historico>
+		<ocultar_historico>Ocultar Historico</ocultar_historico>
+		<cerrar>Cerrar</cerrar>
+		<informe_historico>¿Dónde Estuvo?</informe_historico>
+		<agregar_geozona>Crear punto de interés</agregar_geozona>
+		<programacion>Programación</programacion>
+		<configurar_horarios>Configurar Horarios</configurar_horarios>
+		<configurar_movil>Configurar Móvil</configurar_movil>
+		<confirmar>Confirmar</confirmar>
+		<ver_video>Reproducir Video</ver_video>
+		<reproduciendo_video>Reproduciendo Video</reproduciendo_video>
+		<volver_rastreo>Volver</volver_rastreo>
+		<ayuda>Ayuda</ayuda>
+		<actualizar_datos>Actualizar Datos</actualizar_datos>
+		<generar_codigo>Generar Código</generar_codigo>
+		<agregar_nuevo>Agregar Nuevo</agregar_nuevo>
+		
+	</botonera>
+
+	<perfiles>
+		<administrador>Administrador</administrador>
+		<administrador_2>Administrador II</administrador_2>
+		<transportista_1>Agente Tipo 1</transportista_1>
+		<transportista_2>Agente Tipo 2</transportista_2>
+	</perfiles> 
+</language>

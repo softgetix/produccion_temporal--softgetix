@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+table tr.filaPar td,
+table tr.filaImpar td{text-align:center;}
+table tr.filaPar:hover td,
+table tr.filaImpar:hover td{background:none !important;}
+
+
+/* Probador de panico: */
+div.panico_global {
+	float: left;
+	margin-top: 5px;
+	width:100%
+}
+
+div.panico_global div {
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+div.panico_global #tabla_moviles{width:100%;}
+div.panico_global_buscar_cliente {}
+
+p.panico_global_buscar_cliente {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	line-height: 1em;
+}
+
+span.panico_global_buscar_cliente {
+	font-family: Arial,Helvetica,sans-serif;
+	color: #001E3F;
+	font-weight: bold;
+	font-size: 9.5pt;
+}
+
+div.panico_global_buscador {
+	clear: both;
+	float: left;
+	border: 2px solid #E0E0E0;
+	height: 26px;
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+div.panico_global_buscador_input {
+	float: left;
+	height: 25px;
+	width: 296px;
+}
+
+input.panico_global_buscador {
+	border: 0px;
+	height: 25px;
+	width: 296px!important;
+	padding: 0!important;
+	color: #555555;
+}
+
+div.panico_global_buscador_lupa {
+	float: left;
+	height: 20px;
+	width: 21px;
+	margin-top: 5px;
+}
+
+img.panico_global_buscador_lupa {
+	
+}
+
+div.panico_global_cliente_mail {
+	clear: both;
+	margin-left: 2px;
+	margin-top: 21px;
+	overflow: hidden;
+	float: left;
+}
+
+div.panico_global_cliente_mail_numero {
+	float: left;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+p.panico_global_cliente_mail {
+	margin-top: 0px;
+	word-wrap: break-word;
+}
+
+span.panico_global_cliente_mail {
+	font-family: Arial,Helvetica,sans-serif;
+	color: #0B0000;
+	font-weight: bold;
+	font-size: 9.5pt;
+}
+
+div.panico_global_cliente_mail_cuenta {
+	float: left;
+	overflow: hidden;
+	margin-left: 38px;
+	word-wrap: break-word;
+}
+
+div.panico_global_tabla {
+	overflow: hidden;
+	clear: both;
+	margin-left: 0px;
+	margin-top: 2px;
+	float: left;
+}
+
+table.panico_global_tabla {
+	border-spacing: 0px;
+	empty-cells: show;
+}
+
+td.panico_global_tabla_cabecera {
+	text-align: center;
+	background-color: #3E3E3E;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+p.panico_global_tabla_cabecera {
+	margin: 0px!important;
+	margin-left: 22px!important;
+	margin-right: 22px!important;
+	line-height: 1.4em!important;
+	word-wrap: break-word;
+}
+
+span.panico_global_tabla_cabecera {
+	font-family: Arial,Helvetica,sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+td.panico_global_tabla_detalle_impar,td.panico_global_tabla_detalle_par {
+	text-align: center;
+	vertical-align: middle;
+	height: 28px;
+	word-wrap: break-word;
+}
+
+td.panico_global_tabla_detalle_impar {
+	background-color: #EAEAEA;
+}
+
+td.panico_global_tabla_detalle_par {
+	background-color: white;
+}
+
+p.panico_global_tabla_detalle {
+	margin: 0px;
+	word-wrap: break-word;
+	line-height: 1.4em!important;
+}
+
+span.panico_global_tabla_matricula {
+	font-family: Verdana,Geneva,sans-serif;
+	color: black;
+	font-size: 9pt;
+}
+
+span.panico_global_tabla_detalle {
+	font-family: Arial,Helvetica,sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+input.panico_global_tabla_detalle {
+	width: 22px;
+	height: 26px;
+	border: 0px;
+	color: white;
+	background-color: #3B8DE0;
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+input.panico_global_tabla_detalle.sin_disponibilidad{background-color:#8F8F8F;}
+
+a.panico_global_tabla_detalle {
+	border: 0px;
+}
+
+div#inicio_prueba {
+	word-wrap: break-word;
+}
+
+p.inicio_prueba_titulo_mayor {
+	margin: 0px;
+}
+
+span.inicio_prueba_titulo_mayor {
+	font-family: Arial,Helvetica,sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 40pt;
+}
+
+p.inicio_prueba_descripcion {
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+span.inicio_prueba_descripcion,span.inicio_prueba_descripcion_destacado {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14pt;
+}
+
+span.inicio_prueba_descripcion {
+	color: #787DA8;
+}
+
+span.inicio_prueba_descripcion_destacado {
+	color: #4365F2;
+}
+
+div.inicio_prueba_aceptacion {
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+}
+
+input.inicio_prueba_aceptacion_si,input.inicio_prueba_aceptacion_mas_tarde {
+	border: 0px;
+	width: 175px;
+	height: 39px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14pt;
+	cursor: pointer;
+}
+
+input.inicio_prueba_aceptacion_si {
+	background-color: #4D6DF3;
+	color: white;
+}
+
+input.inicio_prueba_aceptacion_mas_tarde {
+	background-color: #DCDCDC;
+	color: black;
+	margin-left: 30px;
+}
+
+p.inicio_prueba_esperando_panico {
+	margin-left: 46px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+span.inicio_prueba_esperando_panico,span.inicio_prueba_esperando_panico_segundos {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+
+span.inicio_prueba_esperando_panico {
+	font-size: 20pt;
+}
+
+span.inicio_prueba_esperando_panico_segundos {
+	font-size: 40pt!important;
+}
+
+p.inicio_prueba_esperando_panico_conteo {
+	margin: 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+p.inicio_prueba_esperando_panico_exitoso {
+	margin: 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+span.inicio_prueba_esperando_panico_exitoso {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 40pt!important;
+	color: #22B14C;
+}
+
+p.inicio_prueba_esperando_panico_fuera_zona {
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+span.inicio_prueba_esperando_panico_fuera_zona {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 20pt!important;
+	color: #ED191A;
+}
+
+p.inicio_prueba_esperando_panico_no_disponibilidad_tecnica {
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+span.inicio_prueba_esperando_panico_no_disponibilidad_tecnica {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 15pt!important;
+	color: #ED191A;
+}
+
+p.inicio_prueba_esperando_panico_no_recibido {
+	margin-left: 0px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+span.inicio_prueba_esperando_panico_no_recibido {
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 26pt;
+}
+
+p.inicio_prueba_esperando_panico_no_recibido_detalle, p.inicio_prueba_esperando_panico_exitoso_detalle {
+	margin-left: 0px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+span.inicio_prueba_esperando_panico_no_recibido_detalle , span.inicio_prueba_esperando_panico_exitoso_detalle{
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+
+span.prueba-exitosa{
+	width:10px;
+	height:9px;
+	border:0px;
+	display:inline-block;
+	background:url(../imagenes/ok.png) left 0px no-repeat;
+	float:right;
+	position:absolute;
+	margin:-5px 0 0 0;}

@@ -1,0 +1,64 @@
+
+
+#colIzq{width:190px; !important}
+#colIzq input.buscar{width:157px !important; margin-top:1px;}
+#mainInformes{margin-left: 0px !important;}
+#busqueda-simple {margin-top:10px;}
+
+fieldset{/*clear:both;*/ border:none !important; /*width:170px;*/ float:left; margin:10px;}
+
+.claseInfoPunto fieldset label{
+	margin:0 0 0 20px;
+	/*width:180px;
+	text-align:right;*/
+}
+
+.claseInfoPunto fieldset span.estado_motor{
+	background:url(../imagenes/estado_entrada.png) left top no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-left: 15px;
+    margin-top: 2px;}		
+
+.claseInfoPunto fieldset span.estado_motor.off{background-position:left top;}	
+.claseInfoPunto fieldset span.estado_motor.on{background-position:-16px top;}	
+
+.button.playvideo{
+    border-color: #BB1700;
+    border-bottom-color: #9F1400;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF2200;
+}
+
+.verde{background-color: #20d820 !important;}
+.verde2{background-color: #20d820 !important;font-size:8px;}
+.rojo{background-color: #f92200 !important;}
+.rojo2{background-color: #f92200 !important;font-size:8px;}
+.gris{background-color: #c3c3c3 !important;}
+.gris2{background-color: #c3c3c3 !important;font-size:8px;}
+.gris3{background-color: #c3c3c3 !important;}
+.amarillo{background-color: #fefe00 !important;}
+
+
+/**** desplegable de moviles ****/
+	.contenido ul li{display:block; background:#FFF; width:260px;}
+	.contenido ul li a,
+	.contenido ul li ul li label,
+	.contenido ul li label{display:inline-block; width:96%; /*width:190px;*/ height:25px; line-height: 25px; padding-left: 10px; font-weight:normal;}
+	.contenido ul li a{background:url(../imagenes/mas.png) 2px 5px no-repeat; padding-left: 25px; color: #666; cursor: pointer; font-weight: bold; text-decoration:none; width:81%;}
+	.contenido ul li input[type="checkbox"],
+	.contenido ul li input[type="radio"]{float:right; margin:6px 5px 0 0; cursor:pointer;}
+	.contenido ul li div.group{margin-bottom:2px; background:#EBEBEB; border-bottom:1px solid #aaa; border-top:1px solid #aaa;}
+	.contenido ul li ul li label:hover{background:#E9E9E9;}
+/****  ****/
+/*.contenido fieldset{border:0px; width:200px; float:left; padding:10px;}*/
+.contenido fieldset strong{font-weight:bolder;}
+/*
+.contenido fieldset#listado-eventos{width:300px;}
+.contenido fieldset#listado-eventos ul li ul li label,
+.contenido fieldset#listado-eventos ul li label{width:300px;}
+*/
+
+.button.volver-rastreo{width:162px; margin-bottom:10px; line-height:20px;}

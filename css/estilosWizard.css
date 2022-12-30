@@ -1,0 +1,27 @@
+.buttonera button{
+width:80px;
+}
+.buttonera{
+float:right;
+}
+fieldset{
+padding: 0.35em 0.625em 0.75em;
+}
+.fld_wrapper{
+overflow:hidden;
+height:100%;
+}
+.hidden{
+height:0;
+}
+
+#step-list ul li { float: left; padding: 10px 50px 20px 0; }
+#step-list ul { overflow: hidden; }
+#step-1-items li { padding: 5px; }
+#main { font-size: 14px; font-face: Verdana; }
+#main dt { padding: 5px; }
+#main dd { padding: 5px; padding-left: 50px; }
+div.step-buttons { text-align: right; clear: both; }
+label { font-weight: normal; }
+.activo { color: #FE6500; }
+a.paso, a.step-link { font-weight: bold; }

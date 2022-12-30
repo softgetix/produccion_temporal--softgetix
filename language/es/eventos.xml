@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+	<localizart>
+		<default>Evento no Definido</default>
+		<evento_1>Reporte GPS Programado</evento_1>
+		<evento_2>Motor Apagado</evento_2>
+		<evento_5>Motor Prendido</evento_5>
+		<evento_6>Botón de Pánico</evento_6>
+		<evento_8>Reconexión Sabotaje</evento_8>
+		<evento_9>Sabotaje de Equipo</evento_9>
+		<evento_11>Reconexión GPRS</evento_11>
+		<evento_13>Exceso de Velocidad</evento_13>
+		<evento_14>Egreso de</evento_14>
+		<evento_15>Ingreso a</evento_15>
+		<evento_16>Reporte GSM</evento_16>
+		<evento_19>Reconexión Sabotaje Equipo</evento_19>
+		<evento_29>Batería Baja - Modo ahorro batería Activo</evento_29>
+		<evento_30>Desconexión Alim. Principal</evento_30>
+		<evento_31>Reconexión Alim. Principal</evento_31>
+		<evento_34>Reconexión Móvil</evento_34>
+		<evento_36>Apertura de Puerta</evento_36>
+		<evento_42>Desconexión de Antena GPS</evento_42>
+		<evento_54>Encendido de Motor</evento_54>
+		<evento_55>Apagado de Motor</evento_55>
+		<evento_60>Encendido de Motor</evento_60>
+		<evento_61>Apagado de Motor</evento_61>
+		<evento_67>Enganche Acoplado</evento_67>
+		<evento_75>Falta de Reporte</evento_75>
+		<evento_76>Falta de Reporte + de 24 hs</evento_76>
+		<evento_79>Alta de Equipo</evento_79>
+		<evento_80>Encendido de Celular</evento_80>
+		<evento_81>Apagado de Celular</evento_81>
+		<evento_83>Pedido de Posición</evento_83>
+		<evento_84>Pánico Fuera de Zona</evento_84>
+	</localizart>
+</clientes>

@@ -1,0 +1,94 @@
+div#contenido{margin:auto; max-width:400px; position:relative; top: 150px;	}
+fieldset{ border:0px; padding:0px; margin:20px 0;}
+html{background:#FFF !important; margin:0px !important; padding:0px !important;}
+body,form,h1,h2,h3,h4,h5,h6{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0px !important; padding:0px !important;}
+
+
+.required_invalid,
+.campoFaltante{border: 1px solid red !important;}
+
+.required_error{
+    background-color: #ffebe8;
+    border: 1px solid #c00;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 0.25em 0.5em;
+	width: auto;
+	line-height: 20px;
+	font-size:11px;
+} 
+
+.required_ok{
+    background-color: #D7ECD8;
+    border: 1px solid #006600;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 0.25em 0.5em;
+    width: auto;
+    line-height: 20px;
+    font-size:11px;
+    
+}
+
+#caplock{ margin-top: -24px; position: absolute; }
+
+input[type="text"], input[type="password"]{
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #cbcbcb;
+    border-radius: 6px;
+    color: #505050;
+    cursor: auto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin: 0;
+    width: 91%;
+	padding:14px 16px;
+	font-size: 14px;
+	
+}
+input[type="text"]:focus, input[type="password"]:focus{border: 1px solid #00237E;}
+
+label{font-size:14px; line-height:24px; font-weight:normal;}
+
+.button{ width:auto; background-color: #00237e; color: #ffffff; 
+	border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.833333rem;
+    letter-spacing: 0.125em;
+    line-height: normal;
+    text-align: center;
+    transition: background-color 0.15s ease 0s, color 0.15s ease 0s;
+	font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+	
+	padding: 16px 38px;
+	
+}
+.button:hover{background-color: #002C9D !important;	}
+
+h2{
+	-moz-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    color: #505050;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    line-height: 1.4;
+    margin-bottom: 1.728rem;
+    padding-bottom: 0.694444rem;
+    text-transform: uppercase;
+}
+
+a.olvido-contrasena{font-size:12px; text-decoration:none;color: #505050;}
+a.olvido-contrasena:hover{text-decoration:underline;}
+
+#div_recuperar_contrasenna{height:155px;}
+/*#div_recuperar_contrasenna .required_error{width:auto !important;}*/
+#div_recuperar_contrasenna .button{padding:4px 38px;}
+
+#div_recuperar_contrasenna #respuesta-ok p{font-size:12px; padding:6px; color:#333;}
